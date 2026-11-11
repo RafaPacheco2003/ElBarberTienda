@@ -1,0 +1,16 @@
+# ── Caché del navegador ──────────────────────────────────────────────
+# El navegador SIEMPRE pregunta al servidor si hay una versión nueva antes
+# de usar lo que tiene guardado. Si no cambió, el servidor responde
+# "304 sin cambios" (muy rápido, no se vuelve a descargar nada).
+# Así, cuando subes cambios a Hostinger, todos ven la versión nueva.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html?|css|js|json|jpe?g|png|webp|gif|svg|ico)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+    Header unset Expires
+  </FilesMatch>
+  # El video pesa mucho: se guarda 7 días. Si lo cambias, súbelo con otro
+  # nombre (ej. hero-2.mp4) y actualiza la ruta en js/config.js.
+  <FilesMatch "\.(mp4|webm)$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+</IfModule>
