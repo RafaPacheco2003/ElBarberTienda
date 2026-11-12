@@ -325,7 +325,7 @@ const P = [
     "L3VEL3",
     CO,
     170,
-    ["assets/img/products/level-3/after-shave-colonia-level-3/after-shave-colonia-level-3-2.jpg", "assets/img/products/level-3/after-shave-colonia-level-3/after-shave-colonia-level-3.jpg"],
+    "assets/img/products/level-3/after-shave-colonia-level-3/after-shave-colonia-level-3.png",
     "Especialmente formulada para todo tipo de piel, proporciona alivio instantáneo después del afeitado al hidratar y refrescar la piel. Sus ingredientes protegen la piel de raspaduras y cortes, y ayudan a reducir el enrojecimiento, la inflamación y la sequedad. La piel se sentirá más tersa, suave y revitalizada.\n\nIdeal para usar en casa o en la barbería. Fragancias únicas, duraderas y agradables.\n\nAromas disponibles:\n- Aqua (azul)\n- Midnight (gris)\n- Royale (morado)",
     1,
   ),
@@ -345,7 +345,7 @@ const P = [
     "L3VEL3",
     "Tratamientos capilares",
     160,
-    "", // Foto: assets/img/products/level-3/bifasico-level-3/bifasico-level-3.png
+    "assets/img/products/level-3/bifasico-level-3/bifasico-level-3.png",
     "Spray desenredante bifásico sin enjuague que suaviza y acondiciona el cabello, aportando suavidad, brillo e hidratación sin dejar residuos ni sensación pegajosa.\n\nEnriquecido con aceite de karité, extracto de coco, queratina y vitamina E, hidrata y nutre cada hebra para reducir la rotura y el frizz. Perfecto para todo tipo de cabello, especialmente seco o dañado.\n\nModo de empleo: úsalo sobre el cabello húmedo o seco para refrescar, desenredar y proteger.",
   ),
   m(
@@ -354,7 +354,7 @@ const P = [
     "L3VEL3",
     "Capas con cuello de goma",
     450,
-    "assets/img/products/level-3/capa-con-cuello-de-goma-level-3/capa-con-cuello-de-goma-level-3.jpg",
+    ["assets/img/products/level-3/capa-con-cuello-de-goma-level-3/capa-con-cuello-de-goma-level-3.png", "assets/img/products/level-3/capa-con-cuello-de-goma-level-3/capa-con-cuello-de-goma-level-3-01.png"],
     "Capa profesional de poliéster, perfecta para cortar, peinar, teñir o hacer la permanente. Resistente al agua, al color, al jabón y a los productos químicos de peluquería.\n\nLigera y cómoda, con un anillo de goma en el cuello que evita que la ropa se manche y que el cabello se meta debajo del cuello.",
   ),
   m(
@@ -390,7 +390,7 @@ const P = [
     "L3VEL3",
     CG,
     160,
-    "", // Foto: assets/img/products/level-3/crema-para-peinar-level-3/crema-para-peinar-level-3.png
+    "assets/img/products/level-3/crema-para-peinar-level-3/crema-para-peinar-level-3.png",
     "Crema formadora no pegajosa, sin residuos y flexible, de fijación media, que mantiene el peinado en su lugar todo el día con un aspecto natural. Agrega volumen y te permite renovar el peinado durante el día.",
   ),
   m(
@@ -399,7 +399,7 @@ const P = [
     "L3VEL3",
     CG,
     160,
-    "", // Foto: assets/img/products/level-3/crema-brillante-level-3/crema-brillante-level-3.png
+    "assets/img/products/level-3/crema-brillante-level-3/crema-brillante-level-3.png",
     "",
   ),
   m(
@@ -435,7 +435,7 @@ const P = [
     "L3VEL3",
     "Tratamientos capilares",
     170,
-    "", // Foto: assets/img/products/level-3/crema-para-rizos-level-3/crema-para-rizos-level-3.png
+    "assets/img/products/level-3/crema-para-rizos-level-3/crema-para-rizos-level-3.png",
     "Crema hidratante que define tus rizos manteniéndolos suaves y lisos. Fórmula ligera y nutritiva que aporta cuerpo y brillo sin apelmazar ni dejar residuos.\n\nCon aceites de coco, jojoba y aguacate, manteca de karité y provitamina B5: hidrata los rizos secos, controla el encrespamiento y realza el patrón natural del rizo. Ideal para cabello rizado, ondulado y encrespado.\n\nModo de empleo: aplica sobre el cabello húmedo y peina como de costumbre.",
   ),
   m(
@@ -453,7 +453,7 @@ const P = [
     "L3VEL3",
     "Cuidado de barba",
     120,
-    "", // Foto: assets/img/products/level-3/balsamo-para-barba-y-bigote-level-3/balsamo-para-barba-y-bigote-level-3.png
+    "assets/img/products/level-3/balsamo-para-barba-y-bigote-level-3/balsamo-para-barba-y-bigote-level-3.png",
     "Beard balm con ingredientes naturales que hidratan y nutren para una barba suave y bien cuidada. Domina el vello rebelde, reduce la picazón y acondiciona la piel para prevenir la sequedad y la descamación.\n\nFijación media para peinar fácilmente sin dejar la barba rígida.",
   ),
   m(
@@ -471,7 +471,7 @@ const P = [
     "L3VEL3",
     "Cuidado de barba",
     180,
-    "", // Foto: assets/img/products/level-3/aceite-para-barba-level-3/aceite-para-barba-level-3.png
+    "assets/img/products/level-3/aceite-para-barba-level-3/aceite-para-barba-level-3.png",
     "Beard oil con una mezcla de aceites naturales que hidratan, nutren y fortalecen el vello facial, dejando la barba suave, sin enredos y con un olor increíble.\n\nEnriquecido con aceite de argán, almendra, jojoba y coco. Controla el frizz, realza el brillo y mantiene sana la piel debajo de la barba.",
   ),
   m(
@@ -480,7 +480,7 @@ const P = [
     "L3VEL3",
     CG,
     150,
-    "", // Foto: assets/img/products/level-3/cera-spider-level-3/cera-spider-level-3.png
+    "assets/img/products/level-3/cera-spider-level-3/cera-spider-level-3.png",
     "Spider Wax con fórmula de fibra que funciona como una telaraña, atrapando cada cabello para un control total. Fijación fuerte y duradera con flexibilidad, volumen y textura, y brillo medio.\n\nPermite moldear y remoldear con libertad. Nutre la fibra capilar, con aroma fresco y acabado limpio sin residuos.",
   ),
   m(
@@ -489,7 +489,7 @@ const P = [
     "L3VEL3",
     CO,
     220,
-    "", // Foto: assets/img/products/level-3/after-shave-750-ml-level-3/after-shave-750-ml-level-3.png
+    "assets/img/products/level-3/after-shave-750-ml-level-3/after-shave-750-ml-level-3.png",
     "Loción after shave Level 3, presentación de 750 ml. Variedad de aromas.",
   ),
   m(
