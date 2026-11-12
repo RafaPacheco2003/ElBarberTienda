@@ -440,6 +440,7 @@ header.sc { box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25); }
 .price { margin-top: auto; font: 800 22px/1 "Barlow Condensed", sans-serif; letter-spacing: 0.02em; }
 .price small { font-size: 13px; color: var(--mute); font-weight: 600; }
 .price.q { font-size: 17px; color: var(--red); }
+.price .was { font-size: 0.7em; font-weight: 600; color: var(--mute); margin-right: 4px; }
 .add {
   margin-top: 12px; padding: 12px;
   border: 2px solid var(--ink); border-radius: var(--r);

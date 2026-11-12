@@ -38,7 +38,7 @@ const pic = (p) =>
 const priceH = (p) =>
   p.p == null
     ? `<span class="price q">Consultar precio</span>`
-    : `<span class="price">${money(p.p)}</span>`;
+    : `<span class="price">${p.po > p.p ? `<s class="was">$${p.po.toLocaleString("es-MX")}</s> ` : ""}${money(p.p)}</span>`;
 // Descripción con formato: respeta los saltos de línea de data.js.
 // Un renglón vacío separa párrafos; los renglones que empiezan con "*", "-" o un número
 // (ej. "* 1 ANTARCTICA" o "01 GUMGUM") se muestran como lista.
