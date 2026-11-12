@@ -445,49 +445,30 @@ function navOn() {
 }
 // ---------- Video de la portada ----------
 let heroSync = () => {};
-// Primera vuelta con sonido (si el navegador lo permite); al repetirse queda en silencio
+// Empieza SIN sonido; el visitante toca "Activar sonido" si lo quiere escuchar.
+// Al repetirse vuelve a quedar en silencio.
 if (VIDEO) {
   const b = $("#vbox");
-  b.innerHTML = `<video src="${VIDEO}" poster="${POSTER}" playsinline preload="auto"></video><button class="snd" id="snd">Silenciar</button>`;
+  b.innerHTML = `<video src="${VIDEO}" poster="${POSTER}" muted playsinline preload="auto"></video><button class="snd" id="snd">Activar sonido</button>`;
   const v = b.firstChild,
     sb = $("#snd");
-  let first = true,
-    started = false;
   const lab = () => {
     sb.textContent = v.muted ? "Activar sonido" : "Silenciar";
   };
-  const unlock = (e) => {
-    document.removeEventListener("pointerdown", unlock);
-    document.removeEventListener("keydown", unlock);
-    if (e.target.closest && e.target.closest("#snd")) return;
-    if (first && !v.paused) {
-      v.muted = false;
-      lab();
-    }
-  };
-  v.muted = false;
+  v.muted = true;
   sb.onclick = () => {
     v.muted = !v.muted;
     lab();
+    if (v.paused) v.play().catch(() => {});
   };
   v.onended = () => {
-    first = false;
     v.muted = true;
     lab();
     v.currentTime = 0;
     v.play().catch(() => {});
   };
-  const start = () =>
-    v
-      .play()
-      .then(lab)
-      .catch(() => {
-        v.muted = true;
-        lab();
-        v.play().catch(() => {});
-        document.addEventListener("pointerdown", unlock);
-        document.addEventListener("keydown", unlock);
-      });
+  let started = false;
+  const start = () => v.play().then(lab).catch(() => {});
   // Solo se reproduce si está en pantalla Y su banner es el activo del carrusel
   let vis = false;
   heroSync = () => {
