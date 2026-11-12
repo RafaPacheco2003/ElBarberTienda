@@ -77,8 +77,10 @@ function menu() {
     SECS.map((s, i) => bt(s.n, s.n, i < 6 ? "in2" : "")).join("");
 }
 // ---------- Tienda: tarjetas y listado ----------
-// shown = cuántos productos se muestran (de 12 en 12 con 'Ver más')
-let shown = 12;
+// shown = cuántos productos se muestran (se cargan de 12 en 12 al bajar: scroll infinito)
+// lista = productos que cumplen la búsqueda/filtros actuales
+let shown = 12,
+  lista = [];
 // Tarjeta de producto (la usan la tienda y el carrusel de destacados)
 // Si el producto tiene 2 fotos, la segunda aparece al pasar el cursor
 const ADD = "Comprar";
@@ -118,6 +120,7 @@ function grid() {
       : cat === "APP"
         ? "Productos de aplicación"
         : cat;
+  lista = l;
   $("#c").textContent =
     l.length + (l.length === 1 ? " producto" : " productos");
   $("#g").innerHTML = l.length
@@ -330,10 +333,27 @@ $("#s").onchange = (e) => {
   shown = 12;
   grid();
 };
-$("#more").onclick = () => {
+// Scroll infinito: agrega los siguientes 12 productos (sin volver a dibujar los que ya están)
+function more() {
+  if (shown >= lista.length) return;
+  $("#g").insertAdjacentHTML("beforeend", lista.slice(shown, shown + 12).map(card).join(""));
   shown += 12;
-  grid();
-};
+  $("#more").hidden = lista.length <= shown;
+  setTimeout(rv, 0);
+}
+$("#more").onclick = more; // respaldo por si alguien toca el aviso
+// Cuando el final de la lista está a menos de 600px de la pantalla, carga más solo.
+// Repite mientras siga cerca (pantallas grandes donde 12 productos no llenan la vista).
+function autoMore() {
+  const fin = $("#more");
+  let n = 0;
+  while (!$("#store").hidden && !fin.hidden && fin.getBoundingClientRect().top < innerHeight + 600 && n++ < 10)
+    more();
+}
+addEventListener("scroll", autoMore, { passive: true });
+addEventListener("resize", autoMore);
+$("#more").classList.add("auto");
+$("#more").textContent = "Cargando más productos…";
 $("#up").onclick = () => scrollTo({ top: 0, behavior: "smooth" });
 // ---------- Marcas (mosaico) ----------
 // l = 1 → logo oscuro sobre fondo blanco; si no, fondo negro

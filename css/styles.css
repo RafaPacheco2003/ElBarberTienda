@@ -482,6 +482,8 @@ select {
 }
 #store .grid { grid-template-columns: repeat(3, 1fr); }
 .more { text-align: center; margin-top: 36px; }
+/* Scroll infinito: el botón se vuelve un aviso discreto de carga */
+.more .auto { background: none; border: 0; box-shadow: none; color: var(--mute); pointer-events: none; font-size: 14px; }
 .empty { grid-column: 1 / -1; padding: 40px 0; color: var(--mute); text-align: center; }
 
 /* ==========================================================
