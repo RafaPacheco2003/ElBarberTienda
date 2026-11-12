@@ -251,7 +251,7 @@ const P = [
     "Elegance",
     CG,
     100,
-    "", // Foto: assets/img/products/elegance/cera-hard-wax-elegance/cera-hard-wax-elegance.png
+    "assets/img/products/elegance/cera-hard-wax-elegance/cera-hard-wax-elegance.png", // Foto: 
     "Cera de fijación extrema. Con aceite de argán. Contenido 100 gramos.",
   ),
   m(
@@ -260,7 +260,7 @@ const P = [
     "Elegance",
     CG,
     100,
-    "", // Foto: assets/img/products/elegance/cera-soft-wax-elegance/cera-soft-wax-elegance.png
+    "assets/img/products/elegance/cera-soft-wax-elegance/cera-soft-wax-elegance.png", // Foto: 
     "Cera para crear textura suave en el cabello con buena fijación. Fórmula transparente. Con aceite de argán.",
   ),
   m(
@@ -269,7 +269,7 @@ const P = [
     "Elegance",
     CO,
     160,
-    "", // Foto: assets/img/products/elegance/after-shave-elegance/after-shave-elegance.png
+    "assets/img/products/elegance/after-shave-elegance/after-shave-elegance.png", // Foto: 
     "Gel para después del rasurado o corte. Hidratante, para todo tipo de piel. Contenido 500 ml.\n\nAromas disponibles:\n- Menta\n- Aqua",
   ),
   m(
@@ -278,7 +278,7 @@ const P = [
     "Elegance",
     CF,
     180,
-    "", // Foto: assets/img/products/elegance/exfoliante-elegance/exfoliante-elegance.png
+    "assets/img/products/elegance/exfoliante-elegance/exfoliante-elegance.png", // Foto: 
     "Exfoliante facial con aroma a menta. Contenido 500 gramos.",
   ),
   m(
@@ -287,7 +287,7 @@ const P = [
     "Elegance",
     CG,
     100,
-    "", // Foto: assets/img/products/elegance/gel-moon-triple-accion-elegance/gel-moon-triple-accion-elegance.png
+    "assets/img/products/elegance/gel-moon-triple-accion-elegance/gel-moon-triple-accion-elegance.png", // Foto: 
     "Gel capilar de triple acción con fijación súper fuerte, volumen extremo y brillo atractivo, con fragancia refrescante. No deja el cabello graso ni con residuos y se puede usar en todo tipo de cabello.\n\nBeneficios:\n- Fijación súper fuerte\n- Brillo duradero\n- Gran volumen\n- Sin escamas\n- Fragancia refrescante\n\nModo de empleo: dosifica en tus manos la cantidad que necesitas según el largo y estado de tu cabello y usa los dedos para extenderlo, creando el estilo deseado. Ideal para uso diario.",
   ),
   m(
@@ -296,7 +296,7 @@ const P = [
     "Elegance",
     CG,
     100,
-    "", // Foto: assets/img/products/elegance/gel-vitamin-strong-hold-elegance/gel-vitamin-strong-hold-elegance.png
+    "assets/img/products/elegance/gel-vitamin-strong-hold-elegance/gel-vitamin-strong-hold-elegance.png", // Foto: 
     "Gel infundido con vitamina Pro-VB5 para proteger el cabello y enriquecerlo con minerales. Fijación fuerte mientras protege tu cabello de daños, espesa los mechones y mejora su brillo.\n\nBeneficios:\n- Protege, espesa y da brillo al cabello\n- Brillo duradero\n- Gran volumen y aspecto natural\n- Fórmula sin escamas\n- Fragancia refrescante\n\nModo de empleo: dosifica en tus manos la cantidad que necesitas según el largo y estado de tu cabello y usa los dedos para extenderlo, creando el estilo deseado.",
   ),
   m(
@@ -305,7 +305,7 @@ const P = [
     "Elegance",
     CG,
     100,
-    "", // Foto: assets/img/products/elegance/gel-color-black-elegance/gel-color-black-elegance.png
+    "assets/img/products/elegance/gel-color-black-elegance/gel-color-black-elegance.png", // Foto: 
     "Gel para cabello que da un retoque instantáneo de color negro. Ideal para cubrir canas. Contenido 250 ml.",
   ),
   // ===== LEVEL 3 =====
