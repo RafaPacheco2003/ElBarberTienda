@@ -356,11 +356,21 @@ $("#more").classList.add("auto");
 $("#more").textContent = "Cargando más productos…";
 $("#up").onclick = () => scrollTo({ top: 0, behavior: "smooth" });
 // ---------- Marcas (mosaico) ----------
+// Todas las marcas distintas de los productos (sin "Genérico"); MAS = las que no salen con logo
+const MARCAS = new Set(
+  P.flatMap((p) => (p.b || "").split(" / ").map((x) => x.trim())).filter((x) => x && x !== "Genérico"),
+);
+BR.forEach((b) => MARCAS.add(b.n));
+const MAS = MARCAS.size - BR.length;
 // l = 1 → logo oscuro sobre fondo blanco; si no, fondo negro
 $("#brands").innerHTML = BR.map(
   (b, k) =>
     `<div class="rv${b.l ? " lt" : ""}" style="--d:${(k % 6) * 0.05}s"><img src="${b.i}" alt="${b.n}" loading="lazy"></div>`,
-).join("");
+).join("") +
+  // Último recuadro: "+N marcas más" (cuenta las marcas de los productos que no tienen logo aquí)
+  (MAS > 0
+    ? `<a class="rv mas" href="#tienda" data-c="Todos" style="--d:${(BR.length % 6) * 0.05}s"><b>+${MAS}</b><span>marcas más</span></a>`
+    : "");
 // ---------- Animaciones al hacer scroll ----------
 // Contador animado de las cifras
 const count = (el) => {
@@ -373,7 +383,7 @@ const count = (el) => {
   })(s);
 };
 // Valores de las cifras: productos, categorías y marcas
-const KV = { p: P.length, c: cats.length, b: BR.length };
+const KV = { p: P.length, c: cats.length, b: MARCAS.size };
 document
   .querySelectorAll(".cu")
   .forEach((e) => (e.dataset.t = KV[e.dataset.k]));
