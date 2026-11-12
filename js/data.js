@@ -354,7 +354,7 @@ const P = [
     "L3VEL3",
     "Capas con cuello de goma",
     450,
-    "", // Foto: assets/img/products/level-3/capa-con-cuello-de-goma-level-3/capa-con-cuello-de-goma-level-3.png
+    "assets/img/products/level-3/capa-con-cuello-de-goma-level-3/capa-con-cuello-de-goma-level-3.jpg",
     "Capa profesional de poliéster, perfecta para cortar, peinar, teñir o hacer la permanente. Resistente al agua, al color, al jabón y a los productos químicos de peluquería.\n\nLigera y cómoda, con un anillo de goma en el cuello que evita que la ropa se manche y que el cabello se meta debajo del cuello.",
   ),
   m(
@@ -1502,22 +1502,15 @@ const P = [
     "assets/img/products/rasuradora-stepless-pro-fs.jpg",
     "Con pantalla digital de RPM. Disponible en rojo y negro.",
   ),
-  m(
-    "Artículos de Barbería",
-    "Atomizador portable",
-    "Genérico",
-    "Atomizadores",
-    380,
-    "", // Foto: assets/img/products/generico/atomizador-portable-generico/atomizador-portable-generico.png
-    "Atomizador portable. Electrónico. Fácil. Ideal para rociar loción. Color negro.",
-  ),
+  // ===== ARTÍCULOS DE BARBERÍA =====
+  // Fotos en assets/img/products/<marca>/<carpeta>/<carpeta>.png (mismo nombre que la carpeta)
   m(
     "Artículos de Barbería",
     "Porta navajas pinza",
-    "",
+    "Genérico",
     "Navajas y porta navajas",
     100,
-    "assets/img/products/porta-navajas-pinza.jpg",
+    "assets/img/products/generico/porta-navajas-pinza-generico/porta-navajas-pinza-generico.jpg",
     "Porta navajas tipo pinza. Material plástico. Ligera. Varios colores.",
   ),
   m(
@@ -1526,7 +1519,7 @@ const P = [
     "BaBylissPRO",
     "Parches y sujetadores",
     150,
-    "assets/img/products/parches-babyliss-para-cabello.jpg",
+    "assets/img/products/babyliss/parches-para-cabello-babyliss/parches-para-cabello-babyliss.jpg",
     "6 parches para sujetar el cabello.",
   ),
   m(
@@ -1535,45 +1528,1793 @@ const P = [
     "Baregk",
     "Brochas y bledos",
     130,
-    "assets/img/products/bledo-madera-baregk.jpg",
+    "assets/img/products/baregk/bledo-madera-baregk/bledo-madera-baregk.jpg",
     "Bledo con mango de madera. Calidad premium.",
   ),
   m(
-    "Capas",
-    "Capas básicas #2",
+    "Artículos de Barbería",
+    "Cepillo Romero facial",
+    "Genérico",
+    "Cepillos",
+    75,
+    "", // Foto: assets/img/products/generico/cepillo-romero-facial-generico/cepillo-romero-facial-generico.png
     "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Cuellos negros Baregk",
+    "Baregk",
+    "Papel y desechables",
+    140,
+    "", // Foto: assets/img/products/baregk/cuellos-negros-baregk/cuellos-negros-baregk.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Porta navajas # 1 (VARIOS)",
+    "Genérico",
+    "Navajas y porta navajas",
+    120,
+    "", // Foto: assets/img/products/generico/porta-navajas-1-varios-generico/porta-navajas-1-varios-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine milimétrico metálico",
+    "Genérico",
+    "Peines",
+    95,
+    "", // Foto: assets/img/products/generico/peine-milimetrico-metalico-generico/peine-milimetrico-metalico-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Caja 1000 filos dorco rojos",
+    "Dorco",
+    "Navajas y porta navajas",
+    1200,
+    "", // Foto: assets/img/products/dorco/caja-1000-filos-rojos-dorco/caja-1000-filos-rojos-dorco.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Mandil para barbero (VARIOS)",
+    "Genérico",
+    "Mandiles y chalecos",
+    300,
+    "", // Foto: assets/img/products/generico/mandil-para-barbero-varios-generico/mandil-para-barbero-varios-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Guantes de nitrilo",
+    "Genérico",
+    "Higiene y desinfección",
+    150,
+    "", // Foto: assets/img/products/generico/guantes-de-nitrilo-generico/guantes-de-nitrilo-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Contenedor para punzo cortantes",
+    "Genérico",
+    "Higiene y desinfección",
+    60,
+    "", // Foto: assets/img/products/generico/contenedor-para-punzo-cortantes-generico/contenedor-para-punzo-cortantes-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Portafolio Barbero Vincent",
+    "Vincent",
+    "Portafolios y estuches",
+    3000,
+    "", // Foto: assets/img/products/vincent/portafolio-barbero-vincent/portafolio-barbero-vincent.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Portafolio Barbero Dorado",
+    "Genérico",
+    "Portafolios y estuches",
+    2000,
+    "", // Foto: assets/img/products/generico/portafolio-barbero-dorado-generico/portafolio-barbero-dorado-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Porta navajas Aashta",
+    "Aashta",
+    "Navajas y porta navajas",
+    150,
+    "", // Foto: assets/img/products/aashta/porta-navajas-aashta/porta-navajas-aashta.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Difusor de rizos Termax",
+    "Termax",
+    "Otros",
+    120,
+    "", // Foto: assets/img/products/termax/difusor-de-rizos-termax/difusor-de-rizos-termax.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Brocha para afeitar",
+    "Genérico",
+    "Afeitado",
+    75,
+    "", // Foto: assets/img/products/generico/brocha-para-afeitar-generico/brocha-para-afeitar-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Porta Navajas clip",
+    "Genérico",
+    "Navajas y porta navajas",
+    180,
+    "", // Foto: assets/img/products/generico/porta-navajas-clip-generico/porta-navajas-clip-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Papel cuello negro",
+    "Genérico",
+    "Papel y desechables",
+    170,
+    "", // Foto: assets/img/products/generico/papel-cuello-negro-generico/papel-cuello-negro-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Rociador barber",
+    "Genérico",
+    "Rociadores y atomizadores",
+    50,
+    "", // Foto: assets/img/products/generico/rociador-barber-generico/rociador-barber-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Set de peines",
+    "Genérico",
+    "Peines",
+    100,
+    "", // Foto: assets/img/products/generico/set-de-peines-generico/set-de-peines-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine con navaja de textura",
+    "Genérico",
+    "Peines",
+    80,
+    "", // Foto: assets/img/products/generico/peine-con-navaja-de-textura-generico/peine-con-navaja-de-textura-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Espejo 360",
+    "Genérico",
+    "Espejos",
+    450,
+    "", // Foto: assets/img/products/generico/espejo-360-generico/espejo-360-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Porta navajas sin cubierta",
+    "Genérico",
+    "Navajas y porta navajas",
+    100,
+    "", // Foto: assets/img/products/generico/porta-navajas-sin-cubierta-generico/porta-navajas-sin-cubierta-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine flap top Baregk",
+    "Baregk",
+    "Peines",
+    80,
+    "", // Foto: assets/img/products/baregk/peine-flap-top-baregk/peine-flap-top-baregk.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Atomizador portable",
+    "Genérico",
+    "Rociadores y atomizadores",
+    380,
+    "", // Foto: assets/img/products/generico/atomizador-portable-generico/atomizador-portable-generico.png
+    "Atomizador portable. Electrónico. Fácil. Ideal para rociar loción. Color negro.",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Porta peines guia",
+    "Genérico",
+    "Peines",
+    160,
+    "", // Foto: assets/img/products/generico/porta-peines-guia-generico/porta-peines-guia-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Cool Care Andis 5 en 1",
+    "Andis",
+    "Mantenimiento de máquinas",
+    190,
+    "", // Foto: assets/img/products/andis/cool-care-5-en-1-andis/cool-care-5-en-1-andis.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Aceite Andis",
+    "Andis",
+    "Mantenimiento de máquinas",
+    90,
+    "", // Foto: assets/img/products/andis/aceite-andis/aceite-andis.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Tapete térmico antiderrapante",
+    "Genérico",
+    "Tapetes",
+    250,
+    "", // Foto: assets/img/products/generico/tapete-termico-antiderrapante-generico/tapete-termico-antiderrapante-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine pompadour / afro",
+    "Genérico",
+    "Peines",
+    35,
+    "", // Foto: assets/img/products/generico/peine-pompadour-afro-generico/peine-pompadour-afro-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Porta navajas para degrafilar",
+    "Genérico",
+    "Navajas y porta navajas",
+    80,
+    "", // Foto: assets/img/products/generico/porta-navajas-para-degrafilar-generico/porta-navajas-para-degrafilar-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Pinzas para cabello",
+    "Genérico",
+    "Parches y sujetadores",
+    5,
+    "", // Foto: assets/img/products/generico/pinzas-para-cabello-generico/pinzas-para-cabello-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Limpiador de navajas",
+    "Genérico",
+    "Navajas y porta navajas",
+    100,
+    "", // Foto: assets/img/products/generico/limpiador-de-navajas-generico/limpiador-de-navajas-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine para seccionar # 2",
+    "Genérico",
+    "Peines",
+    50,
+    "", // Foto: assets/img/products/generico/peine-para-seccionar-2-generico/peine-para-seccionar-2-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Mandil BabylissPro",
+    "BaBylissPRO",
+    "Mandiles y chalecos",
+    500,
+    "", // Foto: assets/img/products/babyliss/mandil-babyliss/mandil-babyliss.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Porta navajas Aashta",
+    "Aashta",
+    "Navajas y porta navajas",
+    130,
+    "", // Foto: assets/img/products/aashta/porta-navajas-2-aashta/porta-navajas-2-aashta.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Bledo con talquera",
+    "Genérico",
+    "Brochas y bledos",
+    90,
+    "", // Foto: assets/img/products/generico/bledo-con-talquera-generico/bledo-con-talquera-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Bledo dorado largo",
+    "Genérico",
+    "Brochas y bledos",
+    120,
+    "", // Foto: assets/img/products/generico/bledo-dorado-largo-generico/bledo-dorado-largo-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Aplicador de fibras",
+    "Genérico",
+    "Brochas y bledos",
+    130,
+    "", // Foto: assets/img/products/generico/aplicador-de-fibras-generico/aplicador-de-fibras-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Filos Derby Premium",
+    "Derby",
+    "Navajas y porta navajas",
+    120,
+    "", // Foto: assets/img/products/derby/filos-premium-derby/filos-premium-derby.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine Wahl tornasol",
+    "Wahl",
+    "Peines",
+    60,
+    "", // Foto: assets/img/products/wahl/peine-tornasol-wahl/peine-tornasol-wahl.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Porta navajas riel Level 3",
+    "L3VEL3",
+    "Navajas y porta navajas",
+    160,
+    "", // Foto: assets/img/products/level-3/porta-navajas-riel-level-3/porta-navajas-riel-level-3.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Cepillo redondo Baregk",
+    "Baregk",
+    "Cepillos",
+    80,
+    "", // Foto: assets/img/products/baregk/cepillo-redondo-baregk/cepillo-redondo-baregk.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Bledo con difusor de talco",
+    "Genérico",
+    "Brochas y bledos",
+    90,
+    "", // Foto: assets/img/products/generico/bledo-con-difusor-de-talco-generico/bledo-con-difusor-de-talco-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Mandil mezclilla",
+    "Genérico",
+    "Mandiles y chalecos",
+    250,
+    "", // Foto: assets/img/products/generico/mandil-mezclilla-generico/mandil-mezclilla-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine flaptop Lobo",
+    "Lobo",
+    "Peines",
+    60,
+    "", // Foto: assets/img/products/lobo/peine-flaptop-lobo/peine-flaptop-lobo.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine con navaja doble",
+    "Genérico",
+    "Peines",
+    40,
+    "", // Foto: assets/img/products/generico/peine-con-navaja-doble-generico/peine-con-navaja-doble-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Tapete antiderrapante",
+    "Genérico",
+    "Tapetes",
+    350,
+    "", // Foto: assets/img/products/generico/tapete-antiderrapante-generico/tapete-antiderrapante-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Chaleco Barber",
+    "Genérico",
+    "Mandiles y chalecos",
+    300,
+    "", // Foto: assets/img/products/generico/chaleco-barber-generico/chaleco-barber-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Porta navaja Aashta",
+    "Aashta",
+    "Navajas y porta navajas",
+    130,
+    "", // Foto: assets/img/products/aashta/porta-navaja-aashta/porta-navaja-aashta.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Set de peines guía para clipper",
+    "Genérico",
+    "Peines",
+    300,
+    "", // Foto: assets/img/products/generico/set-de-peines-guia-para-clipper-generico/set-de-peines-guia-para-clipper-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Porta navajas Trento",
+    "Trento",
+    "Navajas y porta navajas",
+    70,
+    "", // Foto: assets/img/products/trento/porta-navajas-trento/porta-navajas-trento.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Cepillo Denman CHICO",
+    "Denman",
+    "Cepillos",
+    50,
+    "", // Foto: assets/img/products/denman/cepillo-chico-denman/cepillo-chico-denman.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Banda para máquina (pieza)",
+    "Genérico",
+    "Mantenimiento de máquinas",
+    90,
+    "", // Foto: assets/img/products/generico/banda-para-maquina-pieza-generico/banda-para-maquina-pieza-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Barbicide",
+    "Barbicide",
+    "Higiene y desinfección",
+    125,
+    "", // Foto: assets/img/products/barbicide/-barbicide/-barbicide.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Aceite para máquina Hairstar",
+    "Hairstar",
+    "Mantenimiento de máquinas",
+    65,
+    "", // Foto: assets/img/products/hairstar/aceite-para-maquina-hairstar/aceite-para-maquina-hairstar.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine numerado Dongben",
+    "Dongben",
+    "Peines",
+    40,
+    "", // Foto: assets/img/products/dongben/peine-numerado-dongben/peine-numerado-dongben.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Atomizador para loción",
+    "Genérico",
+    "Rociadores y atomizadores",
+    300,
+    "", // Foto: assets/img/products/generico/atomizador-para-locion-generico/atomizador-para-locion-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Porta navajas TSF",
+    "The Shave Factory",
+    "Navajas y porta navajas",
+    60,
+    "", // Foto: assets/img/products/the-shave-factory/porta-navajas-the-shave-factory/porta-navajas-the-shave-factory.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine textura Baregk Colores",
+    "Baregk",
+    "Peines",
+    40,
+    "", // Foto: assets/img/products/baregk/peine-textura-colores-baregk/peine-textura-colores-baregk.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Maletín Barber Hairstar",
+    "Hairstar",
+    "Portafolios y estuches",
+    850,
+    "", // Foto: assets/img/products/hairstar/maletin-barber-hairstar/maletin-barber-hairstar.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Portafolio de Babero",
+    "Genérico",
+    "Portafolios y estuches",
+    1200,
+    "", // Foto: assets/img/products/generico/portafolio-de-babero-generico/portafolio-de-babero-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Cepillo para barba Baregk",
+    "Baregk",
+    "Cepillos",
+    120,
+    "", // Foto: assets/img/products/baregk/cepillo-para-barba-baregk/cepillo-para-barba-baregk.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Cepillo redondo",
+    "Genérico",
+    "Cepillos",
+    80,
+    "", // Foto: assets/img/products/generico/cepillo-redondo-generico/cepillo-redondo-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Cepillo con peine",
+    "Genérico",
+    "Peines",
+    50,
+    "", // Foto: assets/img/products/generico/cepillo-con-peine-generico/cepillo-con-peine-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Porta navajas Riel Lobo/The shave factory",
+    "Lobo / The Shave Factory",
+    "Navajas y porta navajas",
+    60,
+    "", // Foto: assets/img/products/lobo/porta-navajas-riel-lobo/porta-navajas-riel-lobo.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Guantes de nitrilo",
+    "Genérico",
+    "Higiene y desinfección",
+    170,
+    "", // Foto: assets/img/products/generico/guantes-de-nitrilo-2-generico/guantes-de-nitrilo-2-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Cepillo con peine",
+    "Genérico",
+    "Peines",
+    60,
+    "", // Foto: assets/img/products/generico/cepillo-con-peine-2-generico/cepillo-con-peine-2-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Toalla para faciales",
+    "Genérico",
+    "Otros",
+    60,
+    "", // Foto: assets/img/products/generico/toalla-para-faciales-generico/toalla-para-faciales-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine textura",
+    "Genérico",
+    "Peines",
+    30,
+    "", // Foto: assets/img/products/generico/peine-textura-generico/peine-textura-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Esponja para rizos",
+    "Genérico",
+    "Otros",
+    80,
+    "", // Foto: assets/img/products/generico/esponja-para-rizos-generico/esponja-para-rizos-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Bledo Trento",
+    "Trento",
+    "Brochas y bledos",
+    90,
+    "", // Foto: assets/img/products/trento/bledo-trento/bledo-trento.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Pinceles para delineado",
+    "Genérico",
+    "Brochas y bledos",
+    100,
+    "", // Foto: assets/img/products/generico/pinceles-para-delineado-generico/pinceles-para-delineado-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Estuche Old Scull",
+    "Old Scull",
+    "Portafolios y estuches",
+    400,
+    "", // Foto: assets/img/products/old-scull/estuche-old-scull/estuche-old-scull.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine de colita Krest",
+    "Krest",
+    "Peines",
+    35,
+    "", // Foto: assets/img/products/krest/peine-de-colita-krest/peine-de-colita-krest.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Brocha para tinte",
+    "Genérico",
+    "Brochas y bledos",
+    35,
+    "", // Foto: assets/img/products/generico/brocha-para-tinte-generico/brocha-para-tinte-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Pinzas para cabello",
+    "Genérico",
+    "Parches y sujetadores",
+    15,
+    "", // Foto: assets/img/products/generico/pinzas-para-cabello-2-generico/pinzas-para-cabello-2-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Dispensador para papel cuellero",
+    "Genérico",
+    "Papel y desechables",
+    120,
+    "", // Foto: assets/img/products/generico/dispensador-para-papel-cuellero-generico/dispensador-para-papel-cuellero-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Contenedor punzo cortantes",
+    "Genérico",
+    "Higiene y desinfección",
+    70,
+    "", // Foto: assets/img/products/generico/contenedor-punzo-cortantes-generico/contenedor-punzo-cortantes-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Dorco Prime",
+    "Dorco",
+    "Navajas y porta navajas",
+    150,
+    "", // Foto: assets/img/products/dorco/prime-dorco/prime-dorco.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Taburete para aumento",
+    "Genérico",
+    "Otros",
+    600,
+    "", // Foto: assets/img/products/generico/taburete-para-aumento-generico/taburete-para-aumento-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Papel cuellero blanco",
+    "Genérico",
+    "Papel y desechables",
+    140,
+    "", // Foto: assets/img/products/generico/papel-cuellero-blanco-generico/papel-cuellero-blanco-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine milimétrico Cleopatra",
+    "Cleopatra",
+    "Peines",
+    30,
+    "", // Foto: assets/img/products/cleopatra/peine-milimetrico-cleopatra/peine-milimetrico-cleopatra.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Llave para tijeras",
+    "Genérico",
+    "Otros",
+    20,
+    "", // Foto: assets/img/products/generico/llave-para-tijeras-generico/llave-para-tijeras-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Guantes nitrilo colores",
+    "Genérico",
+    "Higiene y desinfección",
+    150,
+    "", // Foto: assets/img/products/generico/guantes-nitrilo-colores-generico/guantes-nitrilo-colores-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Portafolio Barbero",
+    "Genérico",
+    "Portafolios y estuches",
+    1800,
+    "", // Foto: assets/img/products/generico/portafolio-barbero-generico/portafolio-barbero-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine flap top",
+    "Genérico",
+    "Peines",
+    35,
+    "", // Foto: assets/img/products/generico/peine-flap-top-generico/peine-flap-top-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Rociador de flujo continuo",
+    "Genérico",
+    "Rociadores y atomizadores",
+    100,
+    "", // Foto: assets/img/products/generico/rociador-de-flujo-continuo-generico/rociador-de-flujo-continuo-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Cepillo de anillo",
+    "Genérico",
+    "Cepillos",
+    70,
+    "", // Foto: assets/img/products/generico/cepillo-de-anillo-generico/cepillo-de-anillo-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Papel cuello Blanco Lobo",
+    "Lobo",
+    "Papel y desechables",
+    100,
+    "", // Foto: assets/img/products/lobo/papel-cuello-blanco-lobo/papel-cuello-blanco-lobo.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Mandil barbería",
+    "Genérico",
+    "Mandiles y chalecos",
+    250,
+    "", // Foto: assets/img/products/generico/mandil-barberia-generico/mandil-barberia-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Set de peines guia",
+    "Genérico",
+    "Peines",
+    300,
+    "", // Foto: assets/img/products/generico/set-de-peines-guia-generico/set-de-peines-guia-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Dorco azules 100 MITADES",
+    "Dorco",
+    "Navajas y porta navajas",
+    70,
+    "", // Foto: assets/img/products/dorco/azules-100-mitades-dorco/azules-100-mitades-dorco.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Brocha con base",
+    "Genérico",
+    "Afeitado",
+    120,
+    "", // Foto: assets/img/products/generico/brocha-con-base-generico/brocha-con-base-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Clip para capa",
+    "Genérico",
+    "Parches y sujetadores",
+    40,
+    "", // Foto: assets/img/products/generico/clip-para-capa-generico/clip-para-capa-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine milimétrico Baregk",
+    "Baregk",
+    "Peines",
+    50,
+    "", // Foto: assets/img/products/baregk/peine-milimetrico-baregk/peine-milimetrico-baregk.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Aplicador de talco",
+    "Genérico",
+    "Brochas y bledos",
+    100,
+    "", // Foto: assets/img/products/generico/aplicador-de-talco-generico/aplicador-de-talco-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine de colita Toni&guy",
+    "Toni&Guy",
+    "Peines",
+    40,
+    "", // Foto: assets/img/products/toni-guy/peine-de-colita-toni-guy/peine-de-colita-toni-guy.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Tazón para jabón",
+    "Genérico",
+    "Afeitado",
+    100,
+    "", // Foto: assets/img/products/generico/tazon-para-jabon-generico/tazon-para-jabon-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Cepillo facial madera",
+    "Genérico",
+    "Cepillos",
+    100,
+    "", // Foto: assets/img/products/generico/cepillo-facial-madera-generico/cepillo-facial-madera-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine bigotero",
+    "Genérico",
+    "Peines",
+    40,
+    "", // Foto: assets/img/products/generico/peine-bigotero-generico/peine-bigotero-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Cepillo Facial Colores",
+    "Genérico",
+    "Cepillos",
+    35,
+    "", // Foto: assets/img/products/generico/cepillo-facial-colores-generico/cepillo-facial-colores-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Bledo con mango plateado",
+    "Genérico",
+    "Brochas y bledos",
+    90,
+    "", // Foto: assets/img/products/generico/bledo-con-mango-plateado-generico/bledo-con-mango-plateado-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Espejo Rectangular",
+    "Genérico",
+    "Espejos",
+    150,
+    "", // Foto: assets/img/products/generico/espejo-rectangular-generico/espejo-rectangular-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine de textura",
+    "Genérico",
+    "Peines",
+    30,
+    "", // Foto: assets/img/products/generico/peine-de-textura-generico/peine-de-textura-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine tipo Wahl dorado/plateado",
+    "Wahl",
+    "Peines",
+    50,
+    "", // Foto: assets/img/products/wahl/peine-tipo-dorado-plateado-wahl/peine-tipo-dorado-plateado-wahl.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Juego de peines guia",
+    "Genérico",
+    "Peines",
+    65,
+    "", // Foto: assets/img/products/generico/juego-de-peines-guia-generico/juego-de-peines-guia-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Paquete filos Dorco rojo",
+    "Dorco",
+    "Navajas y porta navajas",
+    140,
+    "", // Foto: assets/img/products/dorco/paquete-filos-rojo-dorco/paquete-filos-rojo-dorco.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Porta navajas (VARIOS)",
+    "Genérico",
+    "Navajas y porta navajas",
+    120,
+    "", // Foto: assets/img/products/generico/porta-navajas-varios-generico/porta-navajas-varios-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Parches sujetadores",
+    "Genérico",
+    "Parches y sujetadores",
+    40,
+    "", // Foto: assets/img/products/generico/parches-sujetadores-generico/parches-sujetadores-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Porta navajas de riel",
+    "Genérico",
+    "Navajas y porta navajas",
+    80,
+    "", // Foto: assets/img/products/generico/porta-navajas-de-riel-generico/porta-navajas-de-riel-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Brocha para tinte Termax",
+    "Termax",
+    "Brochas y bledos",
+    20,
+    "", // Foto: assets/img/products/termax/brocha-para-tinte-termax/brocha-para-tinte-termax.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Bledo mango largo",
+    "Genérico",
+    "Brochas y bledos",
+    140,
+    "", // Foto: assets/img/products/generico/bledo-mango-largo-generico/bledo-mango-largo-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Pinzas tipo cocodrilo",
+    "Genérico",
+    "Parches y sujetadores",
+    10,
+    "", // Foto: assets/img/products/generico/pinzas-tipo-cocodrilo-generico/pinzas-tipo-cocodrilo-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Cepillo Denman GRANDE",
+    "Denman",
+    "Cepillos",
+    80,
+    "", // Foto: assets/img/products/denman/cepillo-grande-denman/cepillo-grande-denman.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Caja con millar de filos",
+    "Genérico",
+    "Navajas y porta navajas",
+    1000,
+    "", // Foto: assets/img/products/generico/caja-con-millar-de-filos-generico/caja-con-millar-de-filos-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine de textura",
+    "Genérico",
+    "Peines",
+    60,
+    "", // Foto: assets/img/products/generico/peine-de-textura-2-generico/peine-de-textura-2-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine flaptop Plus",
+    "Plus",
+    "Peines",
+    40,
+    "", // Foto: assets/img/products/plus/peine-flaptop-plus/peine-flaptop-plus.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Rociador cuadrado",
+    "Genérico",
+    "Rociadores y atomizadores",
+    80,
+    "", // Foto: assets/img/products/generico/rociador-cuadrado-generico/rociador-cuadrado-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Filos Derby",
+    "Derby",
+    "Navajas y porta navajas",
+    90,
+    "", // Foto: assets/img/products/derby/filos-derby/filos-derby.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Bacticida",
+    "Genérico",
+    "Higiene y desinfección",
+    70,
+    "", // Foto: assets/img/products/generico/bacticida-generico/bacticida-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Paquete de filos Dorco",
+    "Dorco",
+    "Navajas y porta navajas",
+    120,
+    "", // Foto: assets/img/products/dorco/paquete-de-filos-dorco/paquete-de-filos-dorco.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Mandil Barbero Hairstar",
+    "Hairstar",
+    "Mandiles y chalecos",
+    280,
+    "", // Foto: assets/img/products/hairstar/mandil-barbero-hairstar/mandil-barbero-hairstar.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Bledo Deluxe Baregk",
+    "Baregk",
+    "Brochas y bledos",
+    220,
+    "", // Foto: assets/img/products/baregk/bledo-deluxe-baregk/bledo-deluxe-baregk.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Rociador Lobo",
+    "Lobo",
+    "Rociadores y atomizadores",
+    70,
+    "", // Foto: assets/img/products/lobo/rociador-lobo/rociador-lobo.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Bledo tipo escoba Baregk",
+    "Baregk",
+    "Brochas y bledos",
+    100,
+    "", // Foto: assets/img/products/baregk/bledo-tipo-escoba-baregk/bledo-tipo-escoba-baregk.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Sobre Capa Ari",
+    "Ari",
+    "Parches y sujetadores",
+    120,
+    "", // Foto: assets/img/products/ari/sobre-capa-ari/sobre-capa-ari.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Rociador flujo continuo",
+    "Genérico",
+    "Rociadores y atomizadores",
+    120,
+    "", // Foto: assets/img/products/generico/rociador-flujo-continuo-generico/rociador-flujo-continuo-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Aceite Wahl",
+    "Wahl",
+    "Mantenimiento de máquinas",
+    100,
+    "", // Foto: assets/img/products/wahl/aceite-wahl/aceite-wahl.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine delineador de barba",
+    "Genérico",
+    "Peines",
+    25,
+    "", // Foto: assets/img/products/generico/peine-delineador-de-barba-generico/peine-delineador-de-barba-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Bledo Luna",
+    "Genérico",
+    "Brochas y bledos",
+    80,
+    "", // Foto: assets/img/products/generico/bledo-luna-generico/bledo-luna-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Cilindro desinfectante",
+    "Genérico",
+    "Higiene y desinfección",
+    350,
+    "", // Foto: assets/img/products/generico/cilindro-desinfectante-generico/cilindro-desinfectante-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Bledo con talquera",
+    "Genérico",
+    "Brochas y bledos",
+    30,
+    "", // Foto: assets/img/products/generico/bledo-con-talquera-2-generico/bledo-con-talquera-2-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peines guia Hairstar",
+    "Hairstar",
+    "Peines",
+    80,
+    "", // Foto: assets/img/products/hairstar/peines-guia-hairstar/peines-guia-hairstar.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Tapete magnético Baregk",
+    "Baregk",
+    "Tapetes",
+    600,
+    "", // Foto: assets/img/products/baregk/tapete-magnetico-baregk/tapete-magnetico-baregk.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine bigotero Cleopatra / Baregk",
+    "Cleopatra / Baregk",
+    "Peines",
+    30,
+    "", // Foto: assets/img/products/cleopatra/peine-bigotero-cleopatra/peine-bigotero-cleopatra.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Líquido desinfectante",
+    "Genérico",
+    "Higiene y desinfección",
+    60,
+    "", // Foto: assets/img/products/generico/liquido-desinfectante-generico/liquido-desinfectante-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine Wahl",
+    "Wahl",
+    "Peines",
+    45,
+    "", // Foto: assets/img/products/wahl/peine-wahl/peine-wahl.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Tapete magnético",
+    "Genérico",
+    "Tapetes",
+    600,
+    "", // Foto: assets/img/products/generico/tapete-magnetico-generico/tapete-magnetico-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Porta navajas riel",
+    "Genérico",
+    "Navajas y porta navajas",
+    70,
+    "", // Foto: assets/img/products/generico/porta-navajas-riel-generico/porta-navajas-riel-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine flap metálico",
+    "Genérico",
+    "Peines",
+    90,
+    "", // Foto: assets/img/products/generico/peine-flap-metalico-generico/peine-flap-metalico-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine cricket # 3 (ROJO/AMARILLO)",
+    "Cricket",
+    "Peines",
+    50,
+    "", // Foto: assets/img/products/cricket/peine-3-rojo-amarillo-cricket/peine-3-rojo-amarillo-cricket.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Bledo mango madera",
+    "Genérico",
+    "Brochas y bledos",
+    120,
+    "", // Foto: assets/img/products/generico/bledo-mango-madera-generico/bledo-mango-madera-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine milimétrico numerado",
+    "Genérico",
+    "Peines",
+    35,
+    "", // Foto: assets/img/products/generico/peine-milimetrico-numerado-generico/peine-milimetrico-numerado-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Pluma de grabado",
+    "Genérico",
+    "Otros",
+    80,
+    "", // Foto: assets/img/products/generico/pluma-de-grabado-generico/pluma-de-grabado-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Porta navajas madera",
+    "Genérico",
+    "Navajas y porta navajas",
+    150,
+    "", // Foto: assets/img/products/generico/porta-navajas-madera-generico/porta-navajas-madera-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Cepillo facial Baregk",
+    "Baregk",
+    "Cepillos",
+    35,
+    "", // Foto: assets/img/products/baregk/cepillo-facial-baregk/cepillo-facial-baregk.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Tazón para afeitar",
+    "Genérico",
+    "Afeitado",
+    100,
+    "", // Foto: assets/img/products/generico/tazon-para-afeitar-generico/tazon-para-afeitar-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Porta navajas sin cubierta Aashta",
+    "Aashta",
+    "Navajas y porta navajas",
+    150,
+    "", // Foto: assets/img/products/aashta/porta-navajas-sin-cubierta-aashta/porta-navajas-sin-cubierta-aashta.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Spray enfriador Babyliss All in one",
+    "BaBylissPRO",
+    "Mantenimiento de máquinas",
+    200,
+    "", // Foto: assets/img/products/babyliss/spray-enfriador-all-in-one-babyliss/spray-enfriador-all-in-one-babyliss.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Espejo redondo Splash",
+    "Splash",
+    "Espejos",
+    160,
+    "", // Foto: assets/img/products/splash/espejo-redondo-splash/espejo-redondo-splash.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Bledo",
+    "Genérico",
+    "Brochas y bledos",
+    100,
+    "", // Foto: assets/img/products/generico/bledo-generico/bledo-generico.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Mandil Trento",
+    "Trento",
+    "Mandiles y chalecos",
+    200,
+    "", // Foto: assets/img/products/trento/mandil-trento/mandil-trento.png
+    "",
+  ),
+  m(
+    "Artículos de Barbería",
+    "Peine Cricket",
+    "Cricket",
+    "Peines",
+    70,
+    "", // Foto: assets/img/products/cricket/peine-cricket/peine-cricket.png
+    "",
+  ),
+  // ===== CAPAS =====
+  // Fotos en assets/img/products/<marca>/<carpeta>/<carpeta>.png (mismo nombre que la carpeta)
+  m(
+    "Capas",
+    "Capas básicas # 2",
+    "Genérico",
     "Capas básicas",
     160,
-    "assets/img/products/capas-basicas-2.jpg",
+    "assets/img/products/generico/capas-basicas-2-generico/capas-basicas-2-generico.jpg",
     "10 modelos a elegir. Capas para corte de cabello. Tipo básica.",
   ),
   m(
     "Capas",
-    "Capas básicas #1",
-    "",
+    "Capas básicas # 1",
+    "Genérico",
     "Capas básicas",
     160,
-    ["assets/img/products/capas-basicas-1.jpg", "assets/img/products/capas-basicas-2.jpg"],
+    ["assets/img/products/generico/capas-basicas-1-generico/capas-basicas-1-generico.jpg", "assets/img/products/generico/capas-basicas-2-generico/capas-basicas-2-generico.jpg"],
     "10 modelos a elegir. Capa ideal para barbería y peluquería.",
   ),
   m(
     "Capas",
     "Capa premium rombos",
-    "",
+    "Genérico",
     "Capas premium",
     270,
-    "assets/img/products/capa-premium-rombos.jpg",
+    "assets/img/products/generico/capa-premium-rombos-generico/capa-premium-rombos-generico.jpg",
     "Capa con rombos de fondo.",
     1,
   ),
   m(
     "Capas",
-    "Capa con cuello de goma",
-    "L3VEL3",
-    "Capas con cuello de goma",
-    null,
-    "assets/img/products/capa-con-cuello-de-goma.jpg",
-    "Varios colores y diseños: blanca, negra, azul, roja y más.",
+    "Capa premium",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-premium-generico/capa-premium-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Premium Club America",
+    "Genérico",
+    "Capas premium",
+    200,
+    "", // Foto: assets/img/products/generico/capa-premium-club-america-generico/capa-premium-club-america-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "CAPAS LISA VARIOS COLORES",
+    "Genérico",
+    "Capas básicas",
+    160,
+    "", // Foto: assets/img/products/generico/capas-lisa-varios-colores-generico/capas-lisa-varios-colores-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Rico McPato",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-rico-mcpato-generico/capa-rico-mcpato-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Trento Camuflaje Rojo Gris",
+    "Trento",
+    "Capas premium",
+    260,
+    "", // Foto: assets/img/products/trento/capa-camuflaje-rojo-gris-trento/capa-camuflaje-rojo-gris-trento.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Supreme",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-supreme-generico/capa-supreme-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa dólar",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-dolar-generico/capa-dolar-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capas para niños",
+    "Genérico",
+    "Capas para niños",
+    200,
+    "", // Foto: assets/img/products/generico/capas-para-ninos-generico/capas-para-ninos-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Versace Escudo",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-versace-escudo-generico/capa-versace-escudo-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa para corte",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-para-corte-generico/capa-para-corte-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Reno",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-reno-generico/capa-reno-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa maestro Roshi",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-maestro-roshi-generico/capa-maestro-roshi-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Burberry Caballito",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-burberry-caballito-generico/capa-burberry-caballito-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Barberlife",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-barberlife-generico/capa-barberlife-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa básica # 3",
+    "Genérico",
+    "Capas básicas",
+    150,
+    "", // Foto: assets/img/products/generico/capa-basica-3-generico/capa-basica-3-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Supreme Goku",
+    "Genérico",
+    "Capas premium",
+    260,
+    "", // Foto: assets/img/products/generico/capa-supreme-goku-generico/capa-supreme-goku-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Camuflaje Verde Azul Negro",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-camuflaje-verde-azul-negro-generico/capa-camuflaje-verde-azul-negro-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Supreme Collage Rojo",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-supreme-collage-rojo-generico/capa-supreme-collage-rojo-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Premium Club Pumas",
+    "Genérico",
+    "Capas premium",
+    200,
+    "", // Foto: assets/img/products/generico/capa-premium-club-pumas-generico/capa-premium-club-pumas-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Gucci fondo beige",
+    "Genérico",
+    "Capas premium",
+    260,
+    "", // Foto: assets/img/products/generico/capa-gucci-fondo-beige-generico/capa-gucci-fondo-beige-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa con logo Wahl negra",
+    "Wahl",
+    "Capas premium",
+    200,
+    "", // Foto: assets/img/products/wahl/capa-con-logo-negra-wahl/capa-con-logo-negra-wahl.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Thug life",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-thug-life-generico/capa-thug-life-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Louis Vuitton",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-louis-vuitton-generico/capa-louis-vuitton-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Trento Navidad Rosa",
+    "Trento",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/trento/capa-navidad-rosa-trento/capa-navidad-rosa-trento.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Louis Vuitton Colores",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-louis-vuitton-colores-generico/capa-louis-vuitton-colores-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa David Grafiti",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-david-grafiti-generico/capa-david-grafiti-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Burberry",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-burberry-generico/capa-burberry-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Premium Club Chivas",
+    "Genérico",
+    "Capas premium",
+    200,
+    "", // Foto: assets/img/products/generico/capa-premium-club-chivas-generico/capa-premium-club-chivas-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa calendario Azteca colores",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-calendario-azteca-colores-generico/capa-calendario-azteca-colores-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa colores animada",
+    "Genérico",
+    "Capas premium",
+    260,
+    "", // Foto: assets/img/products/generico/capa-colores-animada-generico/capa-colores-animada-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Colores",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-colores-generico/capa-colores-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Supreme Blanco",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-supreme-blanco-generico/capa-supreme-blanco-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Monopoly",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-monopoly-generico/capa-monopoly-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Bugs Bunny",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-bugs-bunny-generico/capa-bugs-bunny-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Billetes Disney",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-billetes-disney-generico/capa-billetes-disney-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Mickey",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-mickey-generico/capa-mickey-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Nike (Thug life)",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-nike-thug-life-generico/capa-nike-thug-life-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Rick & Morty",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-rick-morty-generico/capa-rick-morty-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Rico Mc Pato # 2",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-rico-mc-pato-2-generico/capa-rico-mc-pato-2-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Guasón",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-guason-generico/capa-guason-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Supreme Angel",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-supreme-angel-generico/capa-supreme-angel-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Rosas y Calavera",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-rosas-y-calavera-generico/capa-rosas-y-calavera-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Barber Shop",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-barber-shop-generico/capa-barber-shop-generico.png
+    "",
+  ),
+  m(
+    "Capas",
+    "Capa Supreme Colores",
+    "Genérico",
+    "Capas premium",
+    270,
+    "", // Foto: assets/img/products/generico/capa-supreme-colores-generico/capa-supreme-colores-generico.png
+    "",
   ),
   m(
     "Capas",
@@ -1584,13 +3325,15 @@ const P = [
     "assets/img/products/capa-de-corte-cuadros-beige.jpg",
     "Capa de barbero con estampado de cuadros y cuello ajustable.",
   ),
+  // ===== TIJERAS =====
+  // Fotos en assets/img/products/<marca>/<carpeta>/<carpeta>.png (mismo nombre que la carpeta)
   m(
     "Tijeras",
     "Combo tijeras Aashta 6″",
     "Aashta",
     "Combos de tijeras",
     650,
-    "assets/img/products/combo-tijeras-aashta-6.jpg",
+    "assets/img/products/aashta/combo-tijeras-6-aashta/combo-tijeras-6-aashta.jpg",
     "Combo de tijeras marca Aashta. Medida 6″. Acero inoxidable.",
     1,
   ),
@@ -1600,25 +3343,297 @@ const P = [
     "Purple Dragon",
     "Combos de tijeras",
     650,
-    "assets/img/products/combo-tijeras-purple-dragon-6.jpg",
+    "assets/img/products/purple-dragon/combo-tijeras-6-purple-dragon/combo-tijeras-6-purple-dragon.jpg",
     "Tijeras marca Purple Dragon. Tamaño 6″. Acero inoxidable.",
   ),
   m(
     "Tijeras",
     "Combo tijeras 5.5″",
-    "Aashta",
+    "Genérico",
     "Combos de tijeras",
     450,
-    "assets/img/products/combo-tijeras-5-5.jpg",
+    "assets/img/products/generico/combo-tijeras-5-5-generico/combo-tijeras-5-5-generico.jpg",
     "Combo de tijeras marca Aashta. Acero inoxidable. Tamaño 5.5″.",
   ),
   m(
+    "Tijeras",
+    "Set Katana Negro Rockwell",
+    "Rockwell",
+    "Combos de tijeras",
+    6000,
+    "", // Foto: assets/img/products/rockwell/set-katana-negro-rockwell/set-katana-negro-rockwell.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Tijeras Aashta Tornasol 7″",
+    "Aashta",
+    "Tijeras",
+    700,
+    "", // Foto: assets/img/products/aashta/tijeras-tornasol-7-aashta/tijeras-tornasol-7-aashta.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Combo tijeras Aashta 5.5″",
+    "Aashta",
+    "Combos de tijeras",
+    650,
+    "", // Foto: assets/img/products/aashta/combo-tijeras-5-5-aashta/combo-tijeras-5-5-aashta.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Combo Tijeras Tornasol Aashta 7″",
+    "Aashta",
+    "Combos de tijeras",
+    750,
+    "", // Foto: assets/img/products/aashta/combo-tijeras-tornasol-7-aashta/combo-tijeras-tornasol-7-aashta.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Tijera Edición 10 años Rockwell 5.5″",
+    "Rockwell",
+    "Tijeras",
+    4500,
+    "", // Foto: assets/img/products/rockwell/tijera-edicion-10-anos-5-5-rockwell/tijera-edicion-10-anos-5-5-rockwell.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Combo tijeras Denbe 7″",
+    "Denbe",
+    "Combos de tijeras",
+    700,
+    "", // Foto: assets/img/products/denbe/combo-tijeras-7-denbe/combo-tijeras-7-denbe.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Combo tijeras Aashta 7″",
+    "Aashta",
+    "Combos de tijeras",
+    700,
+    "", // Foto: assets/img/products/aashta/combo-tijeras-7-aashta/combo-tijeras-7-aashta.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Combo tijeras Denbe 6.5″",
+    "Denbe",
+    "Combos de tijeras",
+    750,
+    "", // Foto: assets/img/products/denbe/combo-tijeras-6-5-denbe/combo-tijeras-6-5-denbe.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Combo tijeras Aashta 5.5″",
+    "Aashta",
+    "Combos de tijeras",
+    450,
+    "", // Foto: assets/img/products/aashta/combo-tijeras-5-5-2-aashta/combo-tijeras-5-5-2-aashta.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Combo tijeras Aashta Tornasol 5.5″",
+    "Aashta",
+    "Combos de tijeras",
+    650,
+    "", // Foto: assets/img/products/aashta/combo-tijeras-tornasol-5-5-aashta/combo-tijeras-tornasol-5-5-aashta.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Combo de tijeras Aashta Negro 5.5″",
+    "Aashta",
+    "Combos de tijeras",
+    650,
+    "", // Foto: assets/img/products/aashta/combo-de-tijeras-negro-5-5-aashta/combo-de-tijeras-negro-5-5-aashta.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Combo tijeras Aashta Azul 5.5″",
+    "Aashta",
+    "Combos de tijeras",
+    650,
+    "", // Foto: assets/img/products/aashta/combo-tijeras-azul-5-5-aashta/combo-tijeras-azul-5-5-aashta.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Set básico negro Rockwell 6.0",
+    "Rockwell",
+    "Combos de tijeras",
+    4500,
+    "", // Foto: assets/img/products/rockwell/set-basico-negro-6-0-rockwell/set-basico-negro-6-0-rockwell.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Combo tijeras 6″ Purple Dragon",
+    "Purple Dragon",
+    "Combos de tijeras",
+    650,
+    "", // Foto: assets/img/products/purple-dragon/combo-tijeras-6-2-purple-dragon/combo-tijeras-6-2-purple-dragon.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Tijera Rockwell Edición Josh OP 5.5",
+    "Rockwell",
+    "Tijeras",
+    4500,
+    "", // Foto: assets/img/products/rockwell/tijera-edicion-josh-op-5-5-rockwell/tijera-edicion-josh-op-5-5-rockwell.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Set básico plateado Rockwell 6″",
+    "Rockwell",
+    "Combos de tijeras",
+    4500,
+    "", // Foto: assets/img/products/rockwell/set-basico-plateado-6-rockwell/set-basico-plateado-6-rockwell.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Tijera Rockwell Black offset 5.25″",
+    "Rockwell",
+    "Combos de tijeras",
+    4500,
+    "", // Foto: assets/img/products/rockwell/tijera-black-offset-5-25-rockwell/tijera-black-offset-5-25-rockwell.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Combo tijeras Devil Rockwell 6.5″",
+    "Rockwell",
+    "Combos de tijeras",
+    6500,
+    "", // Foto: assets/img/products/rockwell/combo-tijeras-devil-6-5-rockwell/combo-tijeras-devil-6-5-rockwell.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Set Barbero Estudiante Rockwell 7″",
+    "Rockwell",
+    "Combos de tijeras",
+    3500,
+    "", // Foto: assets/img/products/rockwell/set-barbero-estudiante-7-rockwell/set-barbero-estudiante-7-rockwell.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Tijera Swivel Handle Rockwell 6″",
+    "Rockwell",
+    "Tijeras",
+    6500,
+    "", // Foto: assets/img/products/rockwell/tijera-swivel-handle-6-rockwell/tijera-swivel-handle-6-rockwell.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Combo tijeras Rockwell 6.5″",
+    "Rockwell",
+    "Combos de tijeras",
+    6000,
+    "", // Foto: assets/img/products/rockwell/combo-tijeras-6-5-rockwell/combo-tijeras-6-5-rockwell.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Set Plata Punto Rockwell 6″",
+    "Rockwell",
+    "Combos de tijeras",
+    5500,
+    "", // Foto: assets/img/products/rockwell/set-plata-punto-6-rockwell/set-plata-punto-6-rockwell.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Tijera filo dulce 7″",
+    "Genérico",
+    "Tijeras",
+    2800,
+    "", // Foto: assets/img/products/generico/tijera-filo-dulce-7-generico/tijera-filo-dulce-7-generico.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Combo tijeras Rockwell 7″",
+    "Rockwell",
+    "Combos de tijeras",
+    3500,
+    "", // Foto: assets/img/products/rockwell/combo-tijeras-7-rockwell/combo-tijeras-7-rockwell.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Combo tijeras Rockwell 6″",
+    "Rockwell",
+    "Combos de tijeras",
+    4500,
+    "", // Foto: assets/img/products/rockwell/combo-tijeras-6-rockwell/combo-tijeras-6-rockwell.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Tijera de entresacar Rockwell 6″",
+    "Rockwell",
+    "Tijeras",
+    4500,
+    "", // Foto: assets/img/products/rockwell/tijera-de-entresacar-6-rockwell/tijera-de-entresacar-6-rockwell.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Tijera Filo Recto Rockwell 7″",
+    "Rockwell",
+    "Tijeras",
+    2500,
+    "", // Foto: assets/img/products/rockwell/tijera-filo-recto-7-rockwell/tijera-filo-recto-7-rockwell.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Tijeras Rockwell Silver Mate 7″",
+    "Rockwell",
+    "Tijeras",
+    null,
+    "", // Foto: assets/img/products/rockwell/tijeras-silver-mate-7-rockwell/tijeras-silver-mate-7-rockwell.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Tijera Rockwell Edición Limitada",
+    "Rockwell",
+    "Tijeras",
+    4500,
+    "", // Foto: assets/img/products/rockwell/tijera-edicion-limitada-rockwell/tijera-edicion-limitada-rockwell.png
+    "",
+  ),
+  m(
+    "Tijeras",
+    "Combo Tijeras Rockwell 6″",
+    "Rockwell",
+    "Combos de tijeras",
+    5500,
+    "", // Foto: assets/img/products/rockwell/combo-tijeras-6-2-rockwell/combo-tijeras-6-2-rockwell.png
+    "",
+  ),
+  // ===== REPUESTOS & ACCESORIOS =====
+  // Fotos en assets/img/products/<marca>/<carpeta>/<carpeta>.png (mismo nombre que la carpeta)
+  m(
     "Repuestos & Accesorios",
-    "Repuesto shaver Babyliss genérico",
+    "Repuesto Shaver Babyliss GENÉRICO",
     "Genérico",
     "Repuestos de rasuradora",
     350,
-    "assets/img/products/repuesto-shaver-babyliss-generico.jpg",
+    "assets/img/products/generico/repuesto-shaver-babyliss-generico/repuesto-shaver-babyliss-generico.jpg",
     "Pieza completa para rasuradoras marca Babyliss.",
   ),
   m(
@@ -1627,7 +3642,7 @@ const P = [
     "BaBylissPRO",
     "Repuestos de cortadora",
     80,
-    "assets/img/products/resorte-tensor-para-babyliss.jpg",
+    "assets/img/products/babyliss/resorte-tensor-para-babyliss/resorte-tensor-para-babyliss.jpg",
     "Resorte tensor para clipper Babyliss FX870.",
   ),
   m(
@@ -1636,35 +3651,649 @@ const P = [
     "Kemei",
     "Repuestos de trimmer",
     300,
-    "assets/img/products/repuesto-para-trimmer-kemei.jpg",
+    "assets/img/products/kemei/repuesto-para-trimmer-kemei/repuesto-para-trimmer-kemei.jpg",
     "Repuesto original para trimmer Kemei modelo 2299.",
   ),
   m(
+    "Repuestos & Accesorios",
+    "Switch kemei",
+    "Kemei",
+    "Repuestos de cortadora",
+    120,
+    "", // Foto: assets/img/products/kemei/switch-kemei/switch-kemei.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto para shaver Andis",
+    "Andis",
+    "Repuestos de rasuradora",
+    550,
+    "", // Foto: assets/img/products/andis/repuesto-para-shaver-andis/repuesto-para-shaver-andis.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Carcasa superior Magic colores",
+    "Wahl",
+    "Repuestos de cortadora",
+    120,
+    "", // Foto: assets/img/products/wahl/carcasa-superior-magic-colores-wahl/carcasa-superior-magic-colores-wahl.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto de cuchillas Wahl",
+    "Wahl",
+    "Cuchillas",
+    400,
+    "", // Foto: assets/img/products/wahl/repuesto-de-cuchillas-wahl/repuesto-de-cuchillas-wahl.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto cuchilla detailer ORIGINAL",
+    "Wahl",
+    "Cuchillas",
+    400,
+    "", // Foto: assets/img/products/wahl/repuesto-cuchilla-detailer-original-wahl/repuesto-cuchilla-detailer-original-wahl.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cargador para shaver Andis",
+    "Andis",
+    "Carga y baterías",
+    350,
+    "", // Foto: assets/img/products/andis/cargador-para-shaver-andis/cargador-para-shaver-andis.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto cargador Wahl",
+    "Wahl",
+    "Carga y baterías",
+    450,
+    "", // Foto: assets/img/products/wahl/repuesto-cargador-wahl/repuesto-cargador-wahl.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto para shaver Andis (GENERICO)",
+    "Genérico",
+    "Repuestos de rasuradora",
+    350,
+    "", // Foto: assets/img/products/generico/repuesto-para-shaver-andis-generico/repuesto-para-shaver-andis-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto para trimmer JRL 2020",
+    "JRL",
+    "Repuestos de trimmer",
+    550,
+    "", // Foto: assets/img/products/jrl/repuesto-para-trimmer-2020-jrl/repuesto-para-trimmer-2020-jrl.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchilla Babyliss Gold",
+    "BaBylissPRO",
+    "Cuchillas",
+    900,
+    "", // Foto: assets/img/products/babyliss/cuchilla-gold-babyliss/cuchilla-gold-babyliss.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto trimmer Babyliss Grafito 2.0",
+    "BaBylissPRO",
+    "Repuestos de trimmer",
+    900,
+    "", // Foto: assets/img/products/babyliss/repuesto-trimmer-grafito-2-0-babyliss/repuesto-trimmer-grafito-2-0-babyliss.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchilla para trimmer babyliss",
+    "BaBylissPRO",
+    "Cuchillas",
+    350,
+    "", // Foto: assets/img/products/babyliss/cuchilla-para-trimmer-babyliss/cuchilla-para-trimmer-babyliss.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Resorte para máquina de corte",
+    "Genérico",
+    "Repuestos de cortadora",
+    60,
+    "", // Foto: assets/img/products/generico/resorte-para-maquina-de-corte-generico/resorte-para-maquina-de-corte-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Kit de tornillo para palanca de máquina",
+    "Genérico",
+    "Repuestos de cortadora",
+    70,
+    "", // Foto: assets/img/products/generico/kit-de-tornillo-para-palanca-de-maquina-generico/kit-de-tornillo-para-palanca-de-maquina-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cargador",
+    "Genérico",
+    "Carga y baterías",
+    200,
+    "", // Foto: assets/img/products/generico/cargador-generico/cargador-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto para shaver",
+    "Genérico",
+    "Repuestos de rasuradora",
+    400,
+    "", // Foto: assets/img/products/generico/repuesto-para-shaver-generico/repuesto-para-shaver-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto de cuchilla Andis GTX",
+    "Andis",
+    "Cuchillas",
+    300,
+    "", // Foto: assets/img/products/andis/repuesto-de-cuchilla-gtx-andis/repuesto-de-cuchilla-gtx-andis.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Base de carga para JRL",
+    "JRL",
+    "Carga y baterías",
+    400,
+    "", // Foto: assets/img/products/jrl/base-de-carga-para-jrl/base-de-carga-para-jrl.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchilla de cerámica para trimmer",
+    "Genérico",
+    "Cuchillas",
+    100,
+    "", // Foto: assets/img/products/generico/cuchilla-de-ceramica-para-trimmer-generico/cuchilla-de-ceramica-para-trimmer-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Set de peines guía para clipper",
+    "Genérico",
+    "Repuestos de cortadora",
+    150,
+    "", // Foto: assets/img/products/generico/set-de-peines-guia-para-clipper-2-generico/set-de-peines-guia-para-clipper-2-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Switch Wahl",
+    "Wahl",
+    "Repuestos de cortadora",
+    80,
+    "", // Foto: assets/img/products/wahl/switch-wahl/switch-wahl.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto para shaver babyliss",
+    "BaBylissPRO",
+    "Repuestos de rasuradora",
+    550,
+    "", // Foto: assets/img/products/babyliss/repuesto-para-shaver-babyliss/repuesto-para-shaver-babyliss.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchilla de cerámica",
+    "Genérico",
+    "Cuchillas",
+    120,
+    "", // Foto: assets/img/products/generico/cuchilla-de-ceramica-generico/cuchilla-de-ceramica-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto para Clipper JRL 2020",
+    "JRL",
+    "Repuestos de cortadora",
+    500,
+    "", // Foto: assets/img/products/jrl/repuesto-para-clipper-2020-jrl/repuesto-para-clipper-2020-jrl.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchillas cóncavas",
+    "Genérico",
+    "Cuchillas",
+    200,
+    "", // Foto: assets/img/products/generico/cuchillas-concavas-generico/cuchillas-concavas-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Base para cuchilla",
+    "Genérico",
+    "Cuchillas",
+    80,
+    "", // Foto: assets/img/products/generico/base-para-cuchilla-generico/base-para-cuchilla-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Base para palanca de máquina de corte",
+    "Genérico",
+    "Repuestos de cortadora",
+    80,
+    "", // Foto: assets/img/products/generico/base-para-palanca-de-maquina-de-corte-generico/base-para-palanca-de-maquina-de-corte-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto en combo para clipper Babyliss",
+    "BaBylissPRO",
+    "Repuestos de cortadora",
+    100,
+    "", // Foto: assets/img/products/babyliss/repuesto-en-combo-para-clipper-babyliss/repuesto-en-combo-para-clipper-babyliss.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Palanca para Clipper",
+    "Genérico",
+    "Repuestos de cortadora",
+    60,
+    "", // Foto: assets/img/products/generico/palanca-para-clipper-generico/palanca-para-clipper-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchillas Wahl micro dentadas",
+    "Wahl",
+    "Cuchillas",
+    400,
+    "", // Foto: assets/img/products/wahl/cuchillas-micro-dentadas-wahl/cuchillas-micro-dentadas-wahl.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Carcasa M pro Individual",
+    "Genérico",
+    "Repuestos de cortadora",
+    120,
+    "", // Foto: assets/img/products/generico/carcasa-m-pro-individual-generico/carcasa-m-pro-individual-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Base de carga JRL",
+    "JRL",
+    "Carga y baterías",
+    450,
+    "", // Foto: assets/img/products/jrl/base-de-carga-jrl/base-de-carga-jrl.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Base de carga Wahl ORIGINAL",
+    "Wahl",
+    "Carga y baterías",
+    550,
+    "", // Foto: assets/img/products/wahl/base-de-carga-original-wahl/base-de-carga-original-wahl.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cable USB para carga Wahl",
+    "Wahl",
+    "Carga y baterías",
+    200,
+    "", // Foto: assets/img/products/wahl/cable-usb-para-carga-wahl/cable-usb-para-carga-wahl.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchilla Echo S|C",
+    "StyleCraft",
+    "Cuchillas",
+    1050,
+    "", // Foto: assets/img/products/stylecraft/cuchilla-echo-s-c-stylecraft/cuchilla-echo-s-c-stylecraft.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchillas e-trimmer Old Scull",
+    "Old Scull",
+    "Cuchillas",
+    550,
+    "", // Foto: assets/img/products/old-scull/cuchillas-e-trimmer-old-scull/cuchillas-e-trimmer-old-scull.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchilla trimmer SC & GAMMA",
+    "StyleCraft / Gamma+",
+    "Cuchillas",
+    1000,
+    "", // Foto: assets/img/products/stylecraft/cuchilla-trimmer-sc-stylecraft/cuchilla-trimmer-sc-stylecraft.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchillas Clipper Nitro/Nexus Old Scull",
+    "Old Scull",
+    "Cuchillas",
+    600,
+    "", // Foto: assets/img/products/old-scull/cuchillas-clipper-nitro-nexus-old-scull/cuchillas-clipper-nitro-nexus-old-scull.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto para navaja de textura",
+    "Genérico",
+    "Repuestos de cortadora",
+    15,
+    "", // Foto: assets/img/products/generico/repuesto-para-navaja-de-textura-generico/repuesto-para-navaja-de-textura-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Base de carga para trimmer Babyliss",
+    "BaBylissPRO",
+    "Carga y baterías",
+    400,
+    "", // Foto: assets/img/products/babyliss/base-de-carga-para-trimmer-babyliss/base-de-carga-para-trimmer-babyliss.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Base de carga para Lo Pro Babyliss",
+    "BaBylissPRO",
+    "Carga y baterías",
+    350,
+    "", // Foto: assets/img/products/babyliss/base-de-carga-para-lo-pro-babyliss/base-de-carga-para-lo-pro-babyliss.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchillas Wahl Gold",
+    "Wahl",
+    "Cuchillas",
+    400,
+    "", // Foto: assets/img/products/wahl/cuchillas-gold-wahl/cuchillas-gold-wahl.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Pila recargable para Babyliss",
+    "BaBylissPRO",
+    "Carga y baterías",
+    150,
+    "", // Foto: assets/img/products/babyliss/pila-recargable-para-babyliss/pila-recargable-para-babyliss.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchillas Wahl Balding 6x0",
+    "Wahl",
+    "Cuchillas",
+    350,
+    "", // Foto: assets/img/products/wahl/cuchillas-balding-6x0-wahl/cuchillas-balding-6x0-wahl.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchilla babyliss Grafito 2.0",
+    "BaBylissPRO",
+    "Cuchillas",
+    900,
+    "", // Foto: assets/img/products/babyliss/cuchilla-grafito-2-0-babyliss/cuchilla-grafito-2-0-babyliss.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchilla Babyliss DLC 2.0",
+    "BaBylissPRO",
+    "Cuchillas",
+    900,
+    "", // Foto: assets/img/products/babyliss/cuchilla-dlc-2-0-babyliss/cuchilla-dlc-2-0-babyliss.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchilla Babyliss Precisión Fade",
+    "BaBylissPRO",
+    "Cuchillas",
+    900,
+    "", // Foto: assets/img/products/babyliss/cuchilla-precision-fade-babyliss/cuchilla-precision-fade-babyliss.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Tapete cargador Babyliss Tomb 45",
+    "BaBylissPRO / Tomb 45",
+    "Carga y baterías",
+    600,
+    "", // Foto: assets/img/products/babyliss/tapete-cargador-babyliss/tapete-cargador-babyliss.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Malla para shaver (1 malla)",
+    "Genérico",
+    "Repuestos de rasuradora",
+    120,
+    "", // Foto: assets/img/products/generico/malla-para-shaver-1-malla-generico/malla-para-shaver-1-malla-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchillas Kemei 2296",
+    "Kemei",
+    "Cuchillas",
+    300,
+    "", // Foto: assets/img/products/kemei/cuchillas-2296-kemei/cuchillas-2296-kemei.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto Shaver UV",
+    "Genérico",
+    "Repuestos de rasuradora",
+    600,
+    "", // Foto: assets/img/products/generico/repuesto-shaver-uv-generico/repuesto-shaver-uv-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto Shaver Babyliss FX3",
+    "BaBylissPRO",
+    "Repuestos de rasuradora",
+    550,
+    "", // Foto: assets/img/products/babyliss/repuesto-shaver-fx3-babyliss/repuesto-shaver-fx3-babyliss.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto shaver Babyliss FX ONE",
+    "BaBylissPRO",
+    "Repuestos de rasuradora",
+    600,
+    "", // Foto: assets/img/products/babyliss/repuesto-shaver-fx-one-babyliss/repuesto-shaver-fx-one-babyliss.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchilla Trimmer SC / Old Scull",
+    "StyleCraft / Old Scull",
+    "Cuchillas",
+    500,
+    "", // Foto: assets/img/products/stylecraft/cuchilla-trimmer-sc-2-stylecraft/cuchilla-trimmer-sc-2-stylecraft.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchilla Trimmer Babyliss Tomb 45",
+    "BaBylissPRO / Tomb 45",
+    "Cuchillas",
+    1000,
+    "", // Foto: assets/img/products/babyliss/cuchilla-trimmer-babyliss/cuchilla-trimmer-babyliss.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto cuchilla Clipper VGR 880",
+    "VGR",
+    "Cuchillas",
+    500,
+    "", // Foto: assets/img/products/vgr/repuesto-cuchilla-clipper-880-vgr/repuesto-cuchilla-clipper-880-vgr.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto Cuchilla VGR V-015/V-035C",
+    "VGR",
+    "Cuchillas",
+    500,
+    "", // Foto: assets/img/products/vgr/repuesto-cuchilla-v-015-v-035c-vgr/repuesto-cuchilla-v-015-v-035c-vgr.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto cuchilla Trimmer V-880T",
+    "VGR",
+    "Cuchillas",
+    450,
+    "", // Foto: assets/img/products/vgr/repuesto-cuchilla-trimmer-v-880t-vgr/repuesto-cuchilla-trimmer-v-880t-vgr.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchilla Genérica para StyleCraft",
+    "Genérico",
+    "Cuchillas",
+    500,
+    "", // Foto: assets/img/products/generico/cuchilla-generica-para-stylecraft-generico/cuchilla-generica-para-stylecraft-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchilla 360° Old Scull",
+    "Old Scull",
+    "Cuchillas",
+    550,
+    "", // Foto: assets/img/products/old-scull/cuchilla-360-old-scull/cuchilla-360-old-scull.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto Shaver Sharp Old Scull",
+    "Old Scull",
+    "Repuestos de rasuradora",
+    550,
+    "", // Foto: assets/img/products/old-scull/repuesto-shaver-sharp-old-scull/repuesto-shaver-sharp-old-scull.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchilla E clipper Old Scull Neo",
+    "Old Scull",
+    "Cuchillas",
+    600,
+    "", // Foto: assets/img/products/old-scull/cuchilla-e-clipper-neo-old-scull/cuchilla-e-clipper-neo-old-scull.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto trimmer VGR 977-885",
+    "VGR",
+    "Repuestos de trimmer",
+    400,
+    "", // Foto: assets/img/products/vgr/repuesto-trimmer-977-885-vgr/repuesto-trimmer-977-885-vgr.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto Genérico UV",
+    "Genérico",
+    "Repuestos de cortadora",
+    400,
+    "", // Foto: assets/img/products/generico/repuesto-uv-generico/repuesto-uv-generico.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Repuesto shaver Infinity Old Scull",
+    "Old Scull",
+    "Repuestos de rasuradora",
+    550,
+    "", // Foto: assets/img/products/old-scull/repuesto-shaver-infinity-old-scull/repuesto-shaver-infinity-old-scull.png
+    "",
+  ),
+  m(
+    "Repuestos & Accesorios",
+    "Cuchillas Babyliss Faper",
+    "BaBylissPRO",
+    "Cuchillas",
+    950,
+    "", // Foto: assets/img/products/babyliss/cuchillas-faper-babyliss/cuchillas-faper-babyliss.png
+    "",
+  ),
+  // ===== CARAMELOS & TAPETES =====
+  // Fotos en assets/img/products/<marca>/<carpeta>/<carpeta>.png (mismo nombre que la carpeta)
+  m(
     "Caramelos & Tapetes",
     "Caramelo blanco y negro",
-    "",
+    "Genérico",
     "Caramelos",
     2000,
-    "assets/img/products/caramelo-blanco-y-negro.jpg",
+    "assets/img/products/generico/caramelo-blanco-y-negro-generico/caramelo-blanco-y-negro-generico.jpg",
     "Caramelo para barbería. Color blanco y negro. Con luz. Giratorio.",
   ),
   m(
     "Caramelos & Tapetes",
     "Caramelo con esfera",
-    "",
+    "Genérico",
     "Caramelos",
     2000,
-    "assets/img/products/caramelo-con-esfera.jpg",
+    "assets/img/products/generico/caramelo-con-esfera-generico/caramelo-con-esfera-generico.jpg",
     "Caramelo de colores con esfera de luz. Con interruptor.",
   ),
   m(
     "Caramelos & Tapetes",
     "Tapetes antifatiga",
-    "",
+    "Genérico",
     "Tapetes",
     1700,
-    "assets/img/products/tapetes-antifatiga.jpg",
+    "assets/img/products/generico/tapetes-antifatiga-generico/tapetes-antifatiga-generico.jpg",
     "Tapete antifatiga profesional de forma rectangular.",
+  ),
+  m(
+    "Caramelos & Tapetes",
+    "Caramelo Rosa",
+    "Genérico",
+    "Caramelos",
+    1200,
+    "", // Foto: assets/img/products/generico/caramelo-rosa-generico/caramelo-rosa-generico.png
+    "",
+  ),
+  m(
+    "Caramelos & Tapetes",
+    "Caramelo Farol",
+    "Genérico",
+    "Caramelos",
+    1550,
+    "", // Foto: assets/img/products/generico/caramelo-farol-generico/caramelo-farol-generico.png
+    "",
   ),
   m(
     "Colorimetría",
@@ -1701,5 +4330,322 @@ const P = [
     null,
     "assets/img/products/polvo-de-textura-powder-play-wax.jpg",
     "20 g. Acabado mate, más volumen y textura.",
+  ),
+  // ===== OTRAS MARCAS (productos de aplicación) =====
+  // Fotos en assets/img/products/<marca>/<carpeta>/<carpeta>.png (mismo nombre que la carpeta)
+  m(
+    "Otras marcas",
+    "Cera Red One",
+    "Red One",
+    CG,
+    140,
+    "", // Foto: assets/img/products/red-one/cera-red-one/cera-red-one.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Agua De Colonia Barber Marmara",
+    "Marmara",
+    CO,
+    170,
+    "", // Foto: assets/img/products/marmara/agua-de-colonia-barber-marmara/agua-de-colonia-barber-marmara.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Cera Super Wet",
+    "Super Wet",
+    CG,
+    60,
+    "", // Foto: assets/img/products/super-wet/cera-super-wet/cera-super-wet.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Cera Baregk Styling Wax",
+    "Baregk",
+    CG,
+    65,
+    "", // Foto: assets/img/products/baregk/cera-styling-wax-baregk/cera-styling-wax-baregk.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Polvo voluminizador",
+    "Genérico",
+    PO,
+    130,
+    "", // Foto: assets/img/products/generico/polvo-voluminizador-generico/polvo-voluminizador-generico.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Minoxidil 5% Kirkland (FRASCO)",
+    "Kirkland",
+    "Tratamientos capilares",
+    150,
+    "", // Foto: assets/img/products/kirkland/minoxidil-5-frasco-kirkland/minoxidil-5-frasco-kirkland.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Crema para manos y cara TSF",
+    "The Shave Factory",
+    CF,
+    140,
+    "", // Foto: assets/img/products/the-shave-factory/crema-para-manos-y-cara-the-shave-factory/crema-para-manos-y-cara-the-shave-factory.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Mascarilla NEGRA",
+    "Genérico",
+    CF,
+    80,
+    "", // Foto: assets/img/products/generico/mascarilla-negra-generico/mascarilla-negra-generico.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Jabón para afeitar TSF",
+    "The Shave Factory",
+    "Afeitado",
+    50,
+    "", // Foto: assets/img/products/the-shave-factory/jabon-para-afeitar-the-shave-factory/jabon-para-afeitar-the-shave-factory.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Loción Clubman Pinaud",
+    "Clubman Pinaud",
+    CO,
+    170,
+    "", // Foto: assets/img/products/clubman-pinaud/locion-clubman-pinaud/locion-clubman-pinaud.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Cera Baregk hair wax 5D",
+    "Baregk",
+    CG,
+    70,
+    "", // Foto: assets/img/products/baregk/cera-hair-wax-5d-baregk/cera-hair-wax-5d-baregk.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Fibras capilares Toppik",
+    "Toppik",
+    "Tratamientos capilares",
+    200,
+    "", // Foto: assets/img/products/toppik/fibras-capilares-toppik/fibras-capilares-toppik.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Talco Clubman Pinaud",
+    "Clubman Pinaud",
+    "Talcos",
+    130,
+    "", // Foto: assets/img/products/clubman-pinaud/talco-clubman-pinaud/talco-clubman-pinaud.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Tinte en Shampoo CASTAÑO OSCURO",
+    "Genérico",
+    "Tintes",
+    100,
+    "", // Foto: assets/img/products/generico/tinte-en-shampoo-castano-oscuro-generico/tinte-en-shampoo-castano-oscuro-generico.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Polvo para heridas",
+    "Genérico",
+    "Otros",
+    80,
+    "", // Foto: assets/img/products/generico/polvo-para-heridas-generico/polvo-para-heridas-generico.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Spray fijador The shave factory",
+    "The Shave Factory",
+    "Sprays fijadores",
+    150,
+    "", // Foto: assets/img/products/the-shave-factory/spray-fijador-the-shave-factory/spray-fijador-the-shave-factory.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Ceras y Pomadas The Shave Factory",
+    "The Shave Factory",
+    PA,
+    120,
+    "", // Foto: assets/img/products/the-shave-factory/ceras-y-pomadas-the-shave-factory/ceras-y-pomadas-the-shave-factory.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "After shave Baregk 450 ml",
+    "Baregk",
+    CO,
+    130,
+    "", // Foto: assets/img/products/baregk/after-shave-450-ml-baregk/after-shave-450-ml-baregk.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Gel para cabello Super Wet",
+    "Super Wet",
+    CG,
+    25,
+    "", // Foto: assets/img/products/super-wet/gel-para-cabello-super-wet/gel-para-cabello-super-wet.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Tinte Bigen",
+    "Bigen",
+    "Tintes",
+    80,
+    "", // Foto: assets/img/products/bigen/tinte-bigen/tinte-bigen.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Shaving gel The Shave Factory 1.5 lt",
+    "The Shave Factory",
+    "Afeitado",
+    190,
+    "", // Foto: assets/img/products/the-shave-factory/shaving-gel-1-5-lt-the-shave-factory/shaving-gel-1-5-lt-the-shave-factory.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Derma Roller",
+    "Genérico",
+    "Tratamientos capilares",
+    100,
+    "", // Foto: assets/img/products/generico/derma-roller-generico/derma-roller-generico.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Kiss Express (CASTAÑO OSCURO) K89",
+    "Kiss Express",
+    "Tintes",
+    160,
+    "", // Foto: assets/img/products/kiss-express/castano-oscuro-k89-kiss-express/castano-oscuro-k89-kiss-express.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Shaving gel Baregk",
+    "Baregk",
+    "Afeitado",
+    130,
+    "", // Foto: assets/img/products/baregk/shaving-gel-baregk/shaving-gel-baregk.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "After shave Baregk AZUL",
+    "Baregk",
+    CO,
+    120,
+    "", // Foto: assets/img/products/baregk/after-shave-azul-baregk/after-shave-azul-baregk.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Pomada sin marca",
+    "Genérico",
+    PA,
+    40,
+    "", // Foto: assets/img/products/generico/pomada-sin-marca-generico/pomada-sin-marca-generico.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Aceite para barba",
+    "Genérico",
+    "Cuidado de barba",
+    130,
+    "", // Foto: assets/img/products/generico/aceite-para-barba-generico/aceite-para-barba-generico.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Kiss express K98 NEGRO",
+    "Kiss Express",
+    "Tintes",
+    160,
+    "", // Foto: assets/img/products/kiss-express/k98-negro-kiss-express/k98-negro-kiss-express.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Tinte en shampoo NEGRO",
+    "Genérico",
+    "Tintes",
+    100,
+    "", // Foto: assets/img/products/generico/tinte-en-shampoo-negro-generico/tinte-en-shampoo-negro-generico.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Beard pen (pluma para barba)",
+    "Genérico",
+    "Cuidado de barba",
+    90,
+    "", // Foto: assets/img/products/generico/beard-pen-pluma-para-barba-generico/beard-pen-pluma-para-barba-generico.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Crema para afeitar Pinaud",
+    "Clubman Pinaud",
+    "Afeitado",
+    160,
+    "", // Foto: assets/img/products/clubman-pinaud/crema-para-afeitar-clubman-pinaud/crema-para-afeitar-clubman-pinaud.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Exfoliante Baregk",
+    "Baregk",
+    CF,
+    150,
+    "", // Foto: assets/img/products/baregk/exfoliante-baregk/exfoliante-baregk.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Mascarilla negra TSF",
+    "The Shave Factory",
+    CF,
+    180,
+    "", // Foto: assets/img/products/the-shave-factory/mascarilla-negra-the-shave-factory/mascarilla-negra-the-shave-factory.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Jabón para afeitar Rocky Reckless",
+    "Rocky Reckless",
+    "Afeitado",
+    150,
+    "", // Foto: assets/img/products/rocky-reckless/jabon-para-afeitar-rocky-reckless/jabon-para-afeitar-rocky-reckless.png
+    "",
+  ),
+  m(
+    "Otras marcas",
+    "Crema para afeitar Rocky Reckless",
+    "Rocky Reckless",
+    "Afeitado",
+    150,
+    "", // Foto: assets/img/products/rocky-reckless/crema-para-afeitar-rocky-reckless/crema-para-afeitar-rocky-reckless.png
+    "",
   ),
 ].map((x, k) => ({ ...x, id: k + 1 }));

@@ -17,11 +17,11 @@ const WA_NUMBER = "529991567296";
 //   t = título que se ve · img = foto · w = 1 para banner ancho
 const BANNERS = [
   { c: "Máquinas", t: "Máquinas", img: "assets/img/products/cortadora-fx-coral.jpg", w: 1 },
-  { c: "Artículos de Barbería", t: "Artículos de barbería", img: "assets/img/products/bledo-madera-baregk.jpg" },
-  { c: "Capas", t: "Capas", img: "assets/img/products/capa-premium-rombos.jpg" },
-  { c: "Tijeras", t: "Tijeras", img: "assets/img/products/combo-tijeras-purple-dragon-6.jpg" },
+  { c: "Artículos de Barbería", t: "Artículos de barbería", img: "assets/img/products/baregk/bledo-madera-baregk/bledo-madera-baregk.jpg" },
+  { c: "Capas", t: "Capas", img: "assets/img/products/generico/capa-premium-rombos-generico/capa-premium-rombos-generico.jpg" },
+  { c: "Tijeras", t: "Tijeras", img: "assets/img/products/purple-dragon/combo-tijeras-6-purple-dragon/combo-tijeras-6-purple-dragon.jpg" },
   { c: "APP", t: "Productos de aplicación", img: "assets/img/products/nishman/after-shave-colonia-nishman/after-shave-colonia-nishman.png", w: 1 },
-  { c: "Repuestos & Accesorios", t: "Repuestos", img: "assets/img/products/repuesto-shaver-babyliss-generico.jpg" },
-  { c: "Caramelos & Tapetes", t: "Caramelos y tapetes", img: "assets/img/products/caramelo-con-esfera.jpg", w: 1 },
+  { c: "Repuestos & Accesorios", t: "Repuestos", img: "assets/img/products/generico/repuesto-shaver-babyliss-generico/repuesto-shaver-babyliss-generico.jpg" },
+  { c: "Caramelos & Tapetes", t: "Caramelos y tapetes", img: "assets/img/products/generico/caramelo-con-esfera-generico/caramelo-con-esfera-generico.jpg", w: 1 },
   { c: "Colorimetría", t: "Colorimetría", img: "assets/img/products/combo-decolorante-hidra.jpg", w: 1 },
 ];
