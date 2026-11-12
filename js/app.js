@@ -359,10 +359,7 @@ $("#up").onclick = () => scrollTo({ top: 0, behavior: "smooth" });
 // l = 1 → logo oscuro sobre fondo blanco; si no, fondo negro
 $("#brands").innerHTML = BR.map(
   (b, k) =>
-    // Sin logo (i vacío) → se muestra el nombre de la marca
-    b.i
-      ? `<div class="rv${b.l ? " lt" : ""}" style="--d:${(k % 6) * 0.05}s"><img src="${b.i}" alt="${b.n}" loading="lazy"></div>`
-      : `<div class="rv nm" style="--d:${(k % 6) * 0.05}s"><span>${b.n}</span></div>`,
+    `<div class="rv${b.l ? " lt" : ""}" style="--d:${(k % 6) * 0.05}s"><img src="${b.i}" alt="${b.n}" loading="lazy"></div>`,
 ).join("");
 // ---------- Animaciones al hacer scroll ----------
 // Contador animado de las cifras
