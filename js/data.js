@@ -689,7 +689,7 @@ const P = [
     "4x4",
     "Cuidado de barba",
     100,
-    "", // Foto: assets/img/products/4x4/aceite-para-barba-4x4/aceite-para-barba-4x4.png
+    "assets/img/products/4x4/aceite-para-barba-4x4/aceite-para-barba-4x4.webp", // Foto: /aceite-para-barba-4x4.png
     "Aceite para barba profesional de 30 ml para una barba suave, hidratada y llena de vitalidad.\n\nBeneficios:\n- Hidratación profunda que elimina la sequedad y el picor\n- Fortalece los folículos pilosos\n- Protección y suavidad contra agentes externos\n- Barba más suave, manejable y brillante, con fragancia masculina y fresca",
   ),
   m(
