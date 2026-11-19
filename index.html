@@ -18,8 +18,22 @@
 <meta name="twitter:title" content="Insumos y Productos para Barbería en Mérida | El Barber">
 <meta name="twitter:description" content="Distribuidora de insumos para barbería en Mérida, Yucatán: máquinas, tijeras, capas, texturizantes y colonias de marcas profesionales. Pide por WhatsApp.">
 <!-- Ícono de la pestaña y de los resultados de Google -->
-<link rel="icon" type="image/png" href="assets/img/logo/logo.png">
-<link rel="apple-touch-icon" href="assets/img/logo/logo.png">
+<!-- Google exige ícono CUADRADO (múltiplo de 48px); logo.png no es cuadrado, por eso no salía -->
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/img/logo/favicon-48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/logo/favicon-96.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/logo/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/logo/apple-touch-icon.png">
+<!-- Nombre del sitio en Google (en lugar de "axkadg.com") -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "El Barber",
+  "alternateName": ["El Barber Mérida", "El Barber Insumos para Barbería"],
+  "url": "https://elbarber.axkadg.com/"
+}
+</script>
 <!-- SEO local: datos del negocio para Google (solo datos reales; agrega calle, C.P. y horario cuando los tengas) -->
 <script type="application/ld+json">
 {
@@ -28,7 +42,7 @@
   "name": "El Barber",
   "description": "Distribuidora de insumos y productos para barbería en Mérida, Yucatán.",
   "url": "https://elbarber.axkadg.com/",
-  "logo": "https://elbarber.axkadg.com/assets/img/logo/logo.png",
+  "logo": "https://elbarber.axkadg.com/assets/img/logo/favicon-512.png",
   "image": "https://elbarber.axkadg.com/assets/img/logo/logo.png",
   "telephone": "+52 999 156 7296",
   "foundingDate": "2021",
