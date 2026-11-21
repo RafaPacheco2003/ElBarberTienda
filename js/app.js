@@ -578,6 +578,49 @@ $("#evwa").href =
     e.rel = "noopener";
   }
 });
+// ---------- Aviso de WhatsApp ("te llegó un mensaje") ----------
+// Sale en la PRIMERA visita y después solo 1 de cada 5 visitas, para no estresar.
+// Se cuenta una visita por sesión del navegador (recargar la página no suma).
+{
+  const CADA = 5, // cada cuántas visitas se repite el aviso
+    fab = $("#fab");
+  let n = 1;
+  try {
+    if (!sessionStorage.getItem("elbarber-ses")) {
+      n = +(localStorage.getItem("elbarber-visitas") || 0) + 1;
+      localStorage.setItem("elbarber-visitas", n);
+      sessionStorage.setItem("elbarber-ses", n);
+    } else n = 0; // misma sesión: no repetir
+  } catch (x) {}
+  if (fab && n && (n - 1) % CADA === 0) {
+    fab.insertAdjacentHTML("beforeend", '<span class="wab">1</span>');
+    const msg = document.createElement("div");
+    msg.className = "wab-msg";
+    msg.setAttribute("role", "status");
+    msg.innerHTML =
+      '<b>El Barber</b>¡Hola! 👋 ¿Te ayudamos a armar tu pedido? Escríbenos por WhatsApp.<button aria-label="Cerrar aviso">×</button>';
+    document.body.append(msg);
+    const hide = () => {
+      msg.classList.remove("on");
+      document.body.classList.remove("wab-open");
+    };
+    const done = () => {
+      hide();
+      fab.classList.remove("ping");
+    };
+    msg.onclick = (e) => {
+      if (e.target.closest("button")) return hide();
+      fab.click();
+    };
+    fab.addEventListener("click", done);
+    setTimeout(() => {
+      fab.classList.add("ping");
+      msg.classList.add("on");
+      document.body.classList.add("wab-open");
+      setTimeout(hide, 9000); // la burbuja se va sola; el "1" se queda hasta que lo toquen
+    }, 4000);
+  }
+}
 // ---------- Pie de página ----------
 $("#fsec").innerHTML = cats
   .map((c) => `<button class="fsb" data-c="${c}">${c}</button>`)
