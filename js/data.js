@@ -536,7 +536,7 @@ const P = [
     "4x4",
     "Papel y desechables",
     125,
-    "assets/img/products/4x4/papel-cuello-blanco-4x4/papel-cuello-blanco-4x4.jpg",
+    "assets/img/products/4x4/papel-cuello-blanco-4x4/papel-cuello-blanco-4x4.webp",
     "Papel cuello color blanco. Contenido 5 rollos, 500 hojas.",
   ),
   m(
@@ -545,7 +545,7 @@ const P = [
     "4x4",
     "Navajas y filos",
     100,
-    "assets/img/products/4x4/filos-pro-edge-platinum-4x4/filos-pro-edge-platinum-4x4.jpg",
+    "assets/img/products/4x4/filos-pro-edge-platinum-4x4/filos-pro-edge-platinum-4x4.webp",
     "Caja con 100 navajas Pro Edge Platinum. Doble filo. Calidad premium.",
   ),
   m(
@@ -554,7 +554,7 @@ const P = [
     "4x4",
     PA,
     75,
-    "assets/img/products/4x4/pomada-4x4/pomada-4x4.jpg",
+    "assets/img/products/4x4/pomada-4x4/pomada-4x4.webp",
     "Pomada para cabello aroma sandía, ideal para un estilo formal y bien definido. Fijación alta que te permite moldear y remoldear en cualquier momento del día.\n\nFórmula dermatológicamente probada, suave con tu piel. Tarro de 100 g. Perfecta para un acabado pulido y duradero.",
   ),
   m(
@@ -563,7 +563,7 @@ const P = [
     "4x4",
     PO,
     100,
-    "", // Foto: assets/img/products/4x4/cera-en-polvo-4x4/cera-en-polvo-4x4.png
+    ["assets/img/products/4x4/cera-en-polvo-4x4/cera-en-polvo-4x4.webp", "assets/img/products/4x4/cera-en-polvo-4x4/cera-en-polvo-4x4-02.webp"],
     "Estiliza y moldea sin necesidad de humedecer el cabello. Para un look con mayor volumen, elegante o relajado. Contenido 20 gramos.\n\nModo de uso: aplica una pequeña cantidad sobre el cabello seco y moldea.",
   ),
   m(
@@ -572,7 +572,7 @@ const P = [
     "4x4",
     CG,
     50,
-    "", // Foto: assets/img/products/4x4/cera-para-cabello-4x4/cera-para-cabello-4x4.png
+    "assets/img/products/4x4/cera-para-cabello-4x4/cera-para-cabello-4x4.webp",
     "Cera para cabello marca 4x4. Contenido 100 g.",
   ),
   m(
@@ -581,7 +581,7 @@ const P = [
     "4x4",
     "Afeitado",
     160,
-    "", // Foto: assets/img/products/4x4/gel-para-afeitar-off-road-1-kg-4x4/gel-para-afeitar-off-road-1-kg-4x4.png
+    "assets/img/products/4x4/gel-para-afeitar-off-road-1-kg-4x4/gel-para-afeitar-off-road-1-kg-4x4.webp",
     "Gel para afeitar profesional Off Road aroma menta, 1000 ml. Ideal para un afeitado sin molestias y con buen deslizamiento de la rasuradora.",
   ),
   m(
@@ -590,7 +590,7 @@ const P = [
     "4x4",
     PA,
     50,
-    "", // Foto: assets/img/products/4x4/pomada-fijacion-alta-4x4/pomada-fijacion-alta-4x4.png
+    "assets/img/products/4x4/pomada-fijacion-alta-4x4/pomada-fijacion-alta-4x4.webp",
     "Pomada para el cabello que modela y ayuda a realizar diferentes peinados. Resistente a la humedad, con fijación alta y brillo natural.",
   ),
   m(
@@ -599,7 +599,7 @@ const P = [
     "4x4",
     CF,
     100,
-    "", // Foto: assets/img/products/4x4/exfoliante-4x4/exfoliante-4x4.png
+    "assets/img/products/4x4/exfoliante-4x4/exfoliante-4x4.webp",
     "Crema exfoliante que elimina células muertas del rostro, dejando la piel suave con una limpieza profunda. Contenido 200 gramos.",
   ),
   m(
@@ -608,7 +608,7 @@ const P = [
     "4x4",
     CF,
     70,
-    "", // Foto: assets/img/products/4x4/mascarilla-negra-4x4/mascarilla-negra-4x4.png
+    "assets/img/products/4x4/mascarilla-negra-4x4/mascarilla-negra-4x4.webp",
     "Purifica la piel, elimina impurezas y puntos negros. Contenido 90 gramos.\n\nModo de uso: aplica la mascarilla sobre el rostro lavado y déjala actuar de 15 a 20 minutos. Una vez seca, retírala desprendiéndola del rostro.",
   ),
   m(
@@ -626,7 +626,7 @@ const P = [
     "4x4",
     PA,
     75,
-    "", // Foto: assets/img/products/4x4/pomada-roja-4x4/pomada-roja-4x4.png
+    "assets/img/products/4x4/pomada-roja-4x4/pomada-roja-4x4.webp",
     "Pomada aroma sandía para un estilo atrevido, firme y con acabado brillante. Su textura ligera se distribuye uniformemente, con acabado profesional sin residuos ni sensación pegajosa. Para todo tipo de cabello, en estilos clásicos y modernos.\n\nBeneficios:\n- Fijación alta que garantiza control y duración\n- Brillo intenso que realza tu estilo\n- Textura ligera y fácil de aplicar\n- No deja residuos ni sensación grasosa\n- Ideal para uso diario",
   ),
   m(
@@ -635,7 +635,7 @@ const P = [
     "4x4",
     "Tratamientos capilares",
     100,
-    "", // Foto: assets/img/products/4x4/shampoo-cbd-minoxidil-4x4/shampoo-cbd-minoxidil-4x4.png
+    "assets/img/products/4x4/shampoo-cbd-minoxidil-4x4/shampoo-cbd-minoxidil-4x4.webp",
     "Shampoo anticaída de 500 g con CBD de cáñamo y minoxidil para el crecimiento del cabello.\n\nBeneficios:\n- Acelera el crecimiento del cabello\n- Relajante capilar\n- Fortalece el cabello\n\nModo de empleo: aplica sobre el cabello húmedo, deja actuar al menos 5 minutos y enjuaga con agua.",
   ),
   m(
@@ -644,7 +644,7 @@ const P = [
     "4x4",
     CO,
     120,
-    "", // Foto: assets/img/products/4x4/after-shave-4x4/after-shave-4x4.png
+    "assets/img/products/4x4/after-shave-4x4/after-shave-4x4.webp",
     "Loción after shave marca 4x4. Contenido 400 ml.\n\nAromas disponibles:\n- Gold\n- King Blue\n- Rojo metálico\n- Power Green",
   ),
   m(
@@ -653,7 +653,7 @@ const P = [
     "4x4",
     "Talcos",
     100,
-    "", // Foto: assets/img/products/4x4/talco-invencible-4x4/talco-invencible-4x4.png
+    "assets/img/products/4x4/talco-invencible-4x4/talco-invencible-4x4.webp",
     "Talco ultrafino versión Invencible, fragancia Invictus. Contenido 255 gramos.",
   ),
   m(
@@ -662,7 +662,7 @@ const P = [
     "4x4",
     "Talcos",
     100,
-    "", // Foto: assets/img/products/4x4/talco-azul-4x4/talco-azul-4x4.png
+    "assets/img/products/4x4/talco-azul-4x4/talco-azul-4x4.webp",
     "Talco ultrafino que evita la irritación y la humedad. Fragancia única para labores de barbería.",
   ),
   m(
@@ -671,7 +671,7 @@ const P = [
     "4x4",
     "Mantenimiento de máquinas",
     75,
-    "", // Foto: assets/img/products/4x4/aceite-para-maquina-4x4/aceite-para-maquina-4x4.png
+    "assets/img/products/4x4/aceite-para-maquina-4x4/aceite-para-maquina-4x4.webp",
     "Reduce el desgaste de las cuchillas y ayuda a aumentar su durabilidad. Contenido 118.3 ml.",
   ),
   m(
@@ -680,7 +680,7 @@ const P = [
     "4x4",
     CG,
     90,
-    "", // Foto: assets/img/products/4x4/cera-telarana-4x4/cera-telarana-4x4.png
+    "assets/img/products/4x4/cera-telarana-4x4/cera-telarana-4x4.webp",
     "Para acomodar y controlar perfectamente tu cabello con un estilo formal, con efecto telaraña al colocarla en tus manos. Remoldeable cuando quieras. Contenido 100 gramos.\n\nModo de uso: distribuye en tus manos, aplica en cabello seco, moldea y peina.",
   ),
   m(
@@ -689,7 +689,7 @@ const P = [
     "4x4",
     "Cuidado de barba",
     100,
-    "assets/img/products/4x4/aceite-para-barba-4x4/aceite-para-barba-4x4.webp", // Foto: /aceite-para-barba-4x4.png
+    "assets/img/products/4x4/aceite-para-barba-4x4/aceite-para-barba-4x4.webp",
     "Aceite para barba profesional de 30 ml para una barba suave, hidratada y llena de vitalidad.\n\nBeneficios:\n- Hidratación profunda que elimina la sequedad y el picor\n- Fortalece los folículos pilosos\n- Protección y suavidad contra agentes externos\n- Barba más suave, manejable y brillante, con fragancia masculina y fresca",
   ),
   m(
@@ -698,7 +698,7 @@ const P = [
     "4x4",
     "Mantenimiento de máquinas",
     120,
-    "", // Foto: assets/img/products/4x4/enfriador-4x4/enfriador-4x4.png
+    "assets/img/products/4x4/enfriador-4x4/enfriador-4x4.webp",
     "Enfriador para máquinas. Enfría, lubrica, desinfecta, limpia y protege contra la corrosión. Contenido 400 gramos.",
   ),
   m(
@@ -707,7 +707,7 @@ const P = [
     "4x4",
     PA,
     50,
-    "", // Foto: assets/img/products/4x4/pomada-extra-firme-4x4/pomada-extra-firme-4x4.png
+    "assets/img/products/4x4/pomada-extra-firme-4x4/pomada-extra-firme-4x4.webp",
     "Moldeador de fijación extra firme para realzar y definir la textura del cabello. Realza el brillo natural, es remoldeable, se retira fácilmente con shampoo y agua y no mancha la ropa. Contenido 100 gramos.",
   ),
   m(
@@ -716,7 +716,7 @@ const P = [
     "4x4",
     PM,
     75,
-    "", // Foto: assets/img/products/4x4/pasta-4x4/pasta-4x4.png
+    "assets/img/products/4x4/pasta-4x4/pasta-4x4.webp",
     "Término intermedio entre cera y pomada, con acabado mate. Estiliza tu cabello de la forma más fácil.",
   ),
   m(
@@ -725,7 +725,7 @@ const P = [
     "4x4",
     "Aerógrafo",
     100,
-    "", // Foto: assets/img/products/4x4/balsamo-para-aerografo-4x4/balsamo-para-aerografo-4x4.png
+    "assets/img/products/4x4/balsamo-para-aerografo-4x4/balsamo-para-aerografo-4x4.webp",
     "Bálsamo negro líquido profesional diseñado para usarse con aerógrafo. Cubre espacios no deseados y define con precisión los contornos del corte para un acabado impecable. Envase de 135 ml.",
   ),
   m(
@@ -734,7 +734,7 @@ const P = [
     "4x4",
     "Tratamientos capilares",
     100,
-    "", // Foto: assets/img/products/4x4/minoxidil-4x4/minoxidil-4x4.png
+    ["assets/img/products/4x4/minoxidil-4x4/minoxidil-4x4.webp", "assets/img/products/4x4/minoxidil-4x4/minoxidil-4x4-02.webp"],
     "Minoxidil al 5%, tratamiento eficaz para combatir la caída del cabello y fomentar el crecimiento capilar.",
   ),
   m(
@@ -743,7 +743,7 @@ const P = [
     "4x4",
     CG,
     90,
-    "", // Foto: assets/img/products/4x4/cera-telarana-platano-4x4/cera-telarana-platano-4x4.png
+    "assets/img/products/4x4/cera-telarana-platano-4x4/cera-telarana-platano-4x4.webp",
     "Efecto telaraña para dar textura al instante. Ideal para peinados modernos y barberías.\n\nBeneficios:\n- Fijación alta que dura todo el día\n- Brillo natural sin verse exagerado\n- Remoldeable para ajustar el peinado\n- Nuevo aroma a plátano",
   ),
   // ===== TOK =====
@@ -1038,7 +1038,7 @@ const P = [
     "BaBylissPRO",
     "Cortadoras",
     3500,
-    "assets/img/products/babyliss/clipper-fx-one-black-babyliss/clipper-fx-one-black-babyliss.jpg",
+    ["assets/img/products/babyliss/clipper-fx-one-black-babyliss/clipper-fx-one-black-babyliss.webp", "assets/img/products/babyliss/clipper-fx-one-black-babyliss/clipper-fx-one-black-babyliss-02.webp"],
     "Cuchilla ultradelgada moldeada por inyección de metal (MIM) de grafito negro (FX8022B). Depósito de aceite para una lubricación constante. Temperatura de cuchilla más baja. Ajustable a cero. Motor sin escobillas N1. Rodamientos duales para mayor eficacia. 6,800 RPM / 13,600 SPM. Batería de litio recargable e intercambiable (FXBB24). Hasta 2.5 horas de autonomía. Botón de liberación rápida de la batería. Indicador de nivel de carga LED de 4 niveles. Ajuste de longitud de corte con 5 posiciones. Carcasa completamente metálica. Apoyadedos ergonómico. Cámara de recogida de pelo con tapa removible. Empuñadura barra texturizada de metal. Tapa inferior biselada con aro para colgar oculto.",
     1,
   ),
@@ -1058,7 +1058,7 @@ const P = [
     "BaBylissPRO",
     "Combos",
     4000,
-    "assets/img/products/babyliss/combo-trimmer-shaver-silver-babyliss/combo-trimmer-shaver-silver-babyliss.jpg",
+    ["assets/img/products/babyliss/combo-trimmer-shaver-silver-babyliss/combo-trimmer-shaver-silver-babyliss.webp", "assets/img/products/babyliss/combo-trimmer-shaver-silver-babyliss/combo-trimmer-shaver-silver-babyliss-02.webp"],
     "Esta colección LimitedFX contiene una recortadora y afeitadora de litio inalámbrica/con cable, con la recortadora equipada con un motor sin escobillas de alto par y la afeitadora equipada con un potente motor rotativo. Una colección de herramientas perfecta para cortar todas las texturas del cabello con potencia, velocidad y precisión de principio a fin.",
     1,
   ),
@@ -1077,7 +1077,7 @@ const P = [
     "BaBylissPRO",
     "Rasuradoras",
     1800,
-    "", // Foto: assets/img/products/babyliss/shaver-lo-pro-mini-babyliss/shaver-lo-pro-mini-babyliss.png
+    "assets/img/products/babyliss/shaver-lo-pro-mini-babyliss/shaver-lo-pro-mini-babyliss.webp",
     "Diseñado para barberos y fabricado para el uso diario, esta afeitadora de una sola lámina combina un rendimiento hipoalergénico seguro para la piel, con comodidad ergonómica. El motor de alta velocidad y la lámina única de titanio ofrecen resultados limpios en casa o en la tienda. Con hasta 1,5 horas de tiempo de ejecución y carga USB-C universal, es la herramienta compacta que se adapta fácilmente a tu rutina y a tu kit.",
   ),
   m(
@@ -1106,7 +1106,7 @@ const P = [
     "4x4",
     "Rasuradoras",
     1200,
-    "", // Foto: assets/img/products/4x4/turbo-shaver-4x4/turbo-shaver-4x4.png
+    ["assets/img/products/4x4/turbo-shaver-4x4/turbo-shaver-4x4.webp", "assets/img/products/4x4/turbo-shaver-4x4/turbo-shaver-4x4-2.webp", "assets/img/products/4x4/turbo-shaver-4x4/turbo-shaver-4x4-03.webp"],
     "Motor de 11,000 RPM con alto torque. Función cortadora y rasuradora para acabados profesionales. Hasta 5 horas de uso continuo. Uso alámbrico / inalámbrico. Ideal para rasurados, fades y detalles de precisión. Diseño compacto, potente y ergonómico.",
   ),
   m(
@@ -1115,7 +1115,7 @@ const P = [
     "BaBylissPRO",
     "Trimmers",
     2650,
-    "", // Foto: assets/img/products/babyliss/trimmer-fx-one-gold-black-babyliss/trimmer-fx-one-gold-black-babyliss.png
+    "assets/img/products/babyliss/trimmer-fx-one-gold-black-babyliss/trimmer-fx-one-gold-black-babyliss.webp",
     "Colores disponibles DORADO/NEGRO. La recortadora FXONE GOLD/BLACKFX es una herramienta profesional para dar forma, metálica con una batería reemplazable. Con una cuchilla en “T” expuesta en 360 grados y motor de diseño italiano de alto torque. Esta recortadora con batería intercambiable cuenta con una batería de litio con una autonomía de 2 horas y empuñadura barra texturizada para mayor comodidad. Utiliza esta recortadora profesional con batería de iones de litio para obtener bordes nítidos, líneas definidas y cualquier otro trabajo detallado.",
   ),
   m(
@@ -1133,7 +1133,7 @@ const P = [
     "BaBylissPRO",
     "Rasuradoras",
     2600,
-    "", // Foto: assets/img/products/babyliss/shaver-uv-foil-fxlfs2es-babyliss/shaver-uv-foil-fxlfs2es-babyliss.png
+    "assets/img/products/babyliss/shaver-uv-foil-fxlfs2es-babyliss/shaver-uv-foil-fxlfs2es-babyliss.webp",
     "Desinfección Eficaz: Tapa desinfectante que elimina el 99.9% de las bacterias, garantizando una higiene óptima en cada uso. Afeitado Preciso: Diseñada para un rasurado al ras, es ideal para el rostro, cuello y línea de nacimiento del cabello. Hipoalergénica: Sus hojas dobles de titanio negro reducen la irritación cutánea, incluso en pieles sensibles. Cierre Automático: La tapa desinfectante se activa automáticamente al cerrarla, y la rasuradora se apaga automáticamente, asegurando un uso seguro y sencillo. Batería Duradera: Equipada con una batería de iones de litio de alta capacidad, ofrece más de 5.5 horas de autonomía. Indicador de Encendido: Una luz indicadora te mantiene al tanto del estado de la rasuradora. Diseño Elegante: La carcasa metálica y su forma ergonómica hacen que sea cómoda de usar y estilizada. Potencia Inigualable: Su potente motor rotativo con 10,000 RPM asegura un afeitado rápido y eficiente. Portátil: Con un tamaño compacto de 13 cm x 7 cm y una bolsa de almacenaje incluida.",
   ),
   m(
@@ -1142,7 +1142,7 @@ const P = [
     "BaBylissPRO",
     "Rasuradoras",
     2650,
-    "", // Foto: assets/img/products/babyliss/shaver-fx-one-babyliss/shaver-fx-one-babyliss.png
+    "assets/img/products/babyliss/shaver-fx-one-babyliss/shaver-fx-one-babyliss.webp",
     "Shaver Babyliss tipo T. Inalámbrica. Potente. Colores disponibles VERDE, ROJO Y AZUL MATE. Hasta 3 horas de uso continuo. Motor rotatorio sin escobillas. Láminas de titanio hipoalergénicas. Carcasa ergonómica totalmente metálica. Tapa cónica con gancho para colgar.",
   ),
   m(
@@ -1214,7 +1214,7 @@ const P = [
     "BaBylissPRO",
     "Cortadoras",
     2900,
-    "", // Foto: assets/img/products/babyliss/clipper-boost-babyliss/clipper-boost-babyliss.png
+    "assets/img/products/babyliss/clipper-boost-babyliss/clipper-boost-babyliss.webp",
     "Clipper BOOSTFX negro mate. Motor sin escobillas de mayor velocidad, mayor par de torsión – 6800 rpm. Nueva hoja de desvanecimiento DLC (hoja de repuesto FX8010D). Mango de goma texturizado con diamante. Tiempo de ejecución de más de 2 horas. Control cónico de 5 retenes. Carcasa totalmente metálica. Cable inalámbrico y doble voltaje. Gancho para colgar. Incluye 8 accesorios de peine.",
   ),
   m(
@@ -1223,7 +1223,7 @@ const P = [
     "BaBylissPRO",
     "Trimmers",
     2600,
-    "", // Foto: assets/img/products/babyliss/trimmer-lo-pro-babyliss/trimmer-lo-pro-babyliss.png
+    "assets/img/products/babyliss/trimmer-lo-pro-babyliss/trimmer-lo-pro-babyliss.webp",
     "La recortadora de edición limitada en amarillo neón FXONE Lo-ProFX ofrece cortes precisos, motor duradero y diseño ergonómico.",
   ),
   m(
@@ -1297,7 +1297,7 @@ const P = [
     "BaBylissPRO",
     "Masajeadores",
     2200,
-    "", // Foto: assets/img/products/babyliss/masajeadora-vibe-fx-babyliss/masajeadora-vibe-fx-babyliss.png
+    "assets/img/products/babyliss/masajeadora-vibe-fx-babyliss/masajeadora-vibe-fx-babyliss.webp",
     "Masajeadora color plateado. Modelo Vibe FX. Marca Babyliss. 2 velocidades. Inalámbrica.",
   ),
   m(
@@ -1306,7 +1306,7 @@ const P = [
     "4x4",
     "Combos",
     1200,
-    "", // Foto: assets/img/products/4x4/combo-barber-adventure-4x4/combo-barber-adventure-4x4.png
+    "assets/img/products/4x4/combo-barber-adventure-4x4/combo-barber-adventure-4x4.webp",
     "Motores rotatorios. Pantalla indicadora de pila. 7000 RPM. 3 horas de servicio. La clipper incluye 8 peines guía. La trimmer incluye 3 peines guía.",
   ),
   m(
@@ -1333,7 +1333,7 @@ const P = [
     "BaBylissPRO",
     "Trimmers",
     2600,
-    "", // Foto: assets/img/products/babyliss/trimmer-fx-one-lo-pro-babyliss/trimmer-fx-one-lo-pro-babyliss.png
+    "assets/img/products/babyliss/trimmer-fx-one-lo-pro-babyliss/trimmer-fx-one-lo-pro-babyliss.webp",
     "Nueva hoja en T de dientes estándar de titanio/DLC azul (FX707BL). Hipoalergénico, alta resistencia, baja temperatura de la hoja, ajustable sin espacio. Nuevo motor sin escobillas N1, rodamientos duales para mayor eficiencia, 7200 rpm / 14,400 spm, larga vida. Nuevo paquete de baterías de litio intercambiables (FXBB24), hasta 3 horas de tiempo de ejecución, botón para liberación rápida de la batería, indicador de batería de anillo LED de 4 etapas. Cubierta protectora de metal de perfil ultrabajo, agarre ergonómico.\n\nIncluye:\n\n- Recortadora\n- Batería\n- Base de carga",
   ),
   m(
@@ -1380,7 +1380,7 @@ const P = [
     "BaBylissPRO",
     "Secadoras",
     2300,
-    "", // Foto: assets/img/products/babyliss/secadora-red-fx-babyliss/secadora-red-fx-babyliss.png
+    "assets/img/products/babyliss/secadora-red-fx-babyliss/secadora-red-fx-babyliss.webp",
     "Motor italiano AC de alta velocidad y rendimiento. Filtro antiruido removible y de fácil limpieza. Mango texturizado extra largo, asegura un máximo agarre antideslizante. 2 ajustes de calor, 2 velocidades. Botón de aire frío, sella la cutícula y fija el peinado. Generador de iones en la rejilla, más brillo y menos frizz.",
   ),
   m(
@@ -1407,7 +1407,7 @@ const P = [
     "4x4",
     "Cortadoras",
     2000,
-    "", // Foto: assets/img/products/4x4/clipper-platinum-4x4/clipper-platinum-4x4.png
+    "assets/img/products/4x4/clipper-platinum-4x4/clipper-platinum-4x4.webp",
     "Cortadora de cabello profesional modelo Platinum.\n\nCaracterísticas:\n- Motor potente 3.0 V, 200 mA, 10,000 r/min, 8 W\n- Carga: 3 horas · Uso: 2.5 horas\n- Batería de ion de litio 3.7 V, 2500 mAh\n- Navajas DLC de 45 mm de ancho\n- Palanca metálica ajustable de 0.5 a 2.0 mm\n- Peso: 300 g · Medidas: 16 × 5.9 × 4.2 cm\n\nIncluye:\n- Cortadora 4x4 Profesional Platinum con cuchillas DLC de 45 mm\n- Protector plástico de cuchillas\n- 6 peines de aumento con gancho metálico (1.5, 3, 4.5, 6, 10 y 13 mm)\n- Adaptador-cargador de corriente\n- Cable USB tipo C y base de carga\n- Cepillo limpiador y aceite lubricante\n- Manual del propietario",
     0,
     2300,
@@ -1418,7 +1418,7 @@ const P = [
     "4x4",
     "Trimmers",
     1900,
-    "", // Foto: assets/img/products/4x4/trimmer-platinum-4x4/trimmer-platinum-4x4.png
+    ["assets/img/products/4x4/trimmer-platinum-4x4/trimmer-platinum-4x4.webp", "assets/img/products/4x4/trimmer-platinum-4x4/trimmer-platinum-4x4-01.webp"],
     "La Trimmer 4x4 Platinum T THOUSAND CROWNS es para detalle fino de verdad. Motor magnético: Respuesta inmediata, no se traba y corta al instante. Cuchillas DLC: Corte más limpio, sin jalones y más precisión en cada línea. Esta máquina es colaboración con barberos reconocidos: Jonathan Medina & Daniel Islas.\n\nIncluye:\n\n3 peines de alzada, base de carga, lubricante + cepillo, garantía de 1 año. Trimmer 4x4 Platinum T Thousand Crowns con motor magnético y cuchillas DLC. Precisión profesional para delineados perfectos. Ideal para barberos que buscan elevar su nivel.",
   ),
   m(
@@ -1519,7 +1519,7 @@ const P = [
     "BaBylissPRO",
     "Parches y sujetadores",
     150,
-    "assets/img/products/babyliss/parches-para-cabello-babyliss/parches-para-cabello-babyliss.jpg",
+    ["assets/img/products/babyliss/parches-para-cabello-babyliss/parches-para-cabello-babyliss.webp", "assets/img/products/babyliss/parches-para-cabello-babyliss/parches-para-cabello-babyliss-02.webp"],
     "6 parches para sujetar el cabello.",
   ),
   m(
@@ -1744,7 +1744,7 @@ const P = [
     "Andis",
     "Mantenimiento de máquinas",
     190,
-    "", // Foto: assets/img/products/andis/cool-care-5-en-1-andis/cool-care-5-en-1-andis.png
+    "assets/img/products/andis/cool-care-5-en-1-andis/cool-care-5-en-1-andis.webp",
     "",
   ),
   m(
@@ -1753,7 +1753,7 @@ const P = [
     "Andis",
     "Mantenimiento de máquinas",
     90,
-    "", // Foto: assets/img/products/andis/aceite-andis/aceite-andis.png
+    "assets/img/products/andis/aceite-andis/aceite-andis.webp",
     "",
   ),
   m(
@@ -1816,7 +1816,7 @@ const P = [
     "BaBylissPRO",
     "Mandiles y chalecos",
     500,
-    "", // Foto: assets/img/products/babyliss/mandil-babyliss/mandil-babyliss.png
+    "assets/img/products/babyliss/mandil-babyliss/mandil-babyliss.webp",
     "",
   ),
   m(
@@ -2851,7 +2851,7 @@ const P = [
     "BaBylissPRO",
     "Mantenimiento de máquinas",
     200,
-    "", // Foto: assets/img/products/babyliss/spray-enfriador-all-in-one-babyliss/spray-enfriador-all-in-one-babyliss.png
+    "assets/img/products/babyliss/spray-enfriador-all-in-one-babyliss/spray-enfriador-all-in-one-babyliss.webp",
     "",
   ),
   m(
@@ -3642,7 +3642,7 @@ const P = [
     "BaBylissPRO",
     "Repuestos de cortadora",
     80,
-    "assets/img/products/babyliss/resorte-tensor-para-babyliss/resorte-tensor-para-babyliss.jpg",
+    "assets/img/products/babyliss/resorte-tensor-para-babyliss/resorte-tensor-para-babyliss.webp",
     "Resorte tensor para clipper Babyliss FX870.",
   ),
   m(
@@ -3669,7 +3669,7 @@ const P = [
     "Andis",
     "Repuestos de rasuradora",
     550,
-    "", // Foto: assets/img/products/andis/repuesto-para-shaver-andis/repuesto-para-shaver-andis.png
+    ["assets/img/products/andis/repuesto-para-shaver-andis/repuesto-para-shaver-andis.webp", "assets/img/products/andis/repuesto-para-shaver-andis/repuesto-para-shaver-andis-02.webp"],
     "",
   ),
   m(
@@ -3705,7 +3705,7 @@ const P = [
     "Andis",
     "Carga y baterías",
     350,
-    "", // Foto: assets/img/products/andis/cargador-para-shaver-andis/cargador-para-shaver-andis.png
+    ["assets/img/products/andis/cargador-para-shaver-andis/cargador-para-shaver-andis.webp", "assets/img/products/andis/cargador-para-shaver-andis/cargador-para-shaver-andis-02.webp"],
     "",
   ),
   m(
@@ -3741,7 +3741,7 @@ const P = [
     "BaBylissPRO",
     "Cuchillas",
     900,
-    "", // Foto: assets/img/products/babyliss/cuchilla-gold-babyliss/cuchilla-gold-babyliss.png
+    "assets/img/products/babyliss/cuchilla-gold-babyliss/cuchilla-gold-babyliss.webp",
     "",
   ),
   m(
@@ -3750,7 +3750,7 @@ const P = [
     "BaBylissPRO",
     "Repuestos de trimmer",
     900,
-    "", // Foto: assets/img/products/babyliss/repuesto-trimmer-grafito-2-0-babyliss/repuesto-trimmer-grafito-2-0-babyliss.png
+    "assets/img/products/babyliss/repuesto-trimmer-grafito-2-0-babyliss/repuesto-trimmer-grafito-2-0-babyliss.webp",
     "",
   ),
   m(
@@ -3804,7 +3804,7 @@ const P = [
     "Andis",
     "Cuchillas",
     300,
-    "", // Foto: assets/img/products/andis/repuesto-de-cuchilla-gtx-andis/repuesto-de-cuchilla-gtx-andis.png
+    "assets/img/products/andis/repuesto-de-cuchilla-gtx-andis/repuesto-de-cuchilla-gtx-andis.webp",
     "",
   ),
   m(
@@ -3849,7 +3849,7 @@ const P = [
     "BaBylissPRO",
     "Repuestos de rasuradora",
     550,
-    "", // Foto: assets/img/products/babyliss/repuesto-para-shaver-babyliss/repuesto-para-shaver-babyliss.png
+    "assets/img/products/babyliss/repuesto-para-shaver-babyliss/repuesto-para-shaver-babyliss.webp",
     "",
   ),
   m(
@@ -4011,7 +4011,7 @@ const P = [
     "BaBylissPRO",
     "Carga y baterías",
     400,
-    "", // Foto: assets/img/products/babyliss/base-de-carga-para-trimmer-babyliss/base-de-carga-para-trimmer-babyliss.png
+    "assets/img/products/babyliss/base-de-carga-para-trimmer-babyliss/base-de-carga-para-trimmer-babyliss.webp",
     "",
   ),
   m(
@@ -4020,7 +4020,7 @@ const P = [
     "BaBylissPRO",
     "Carga y baterías",
     350,
-    "", // Foto: assets/img/products/babyliss/base-de-carga-para-lo-pro-babyliss/base-de-carga-para-lo-pro-babyliss.png
+    "assets/img/products/babyliss/base-de-carga-para-lo-pro-babyliss/base-de-carga-para-lo-pro-babyliss.webp",
     "",
   ),
   m(
@@ -4038,7 +4038,7 @@ const P = [
     "BaBylissPRO",
     "Carga y baterías",
     150,
-    "", // Foto: assets/img/products/babyliss/pila-recargable-para-babyliss/pila-recargable-para-babyliss.png
+    "assets/img/products/babyliss/pila-recargable-para-babyliss/pila-recargable-para-babyliss.webp",
     "",
   ),
   m(
@@ -4056,7 +4056,7 @@ const P = [
     "BaBylissPRO",
     "Cuchillas",
     900,
-    "", // Foto: assets/img/products/babyliss/cuchilla-grafito-2-0-babyliss/cuchilla-grafito-2-0-babyliss.png
+    "assets/img/products/babyliss/cuchilla-grafito-2-0-babyliss/cuchilla-grafito-2-0-babyliss.webp",
     "",
   ),
   m(
@@ -4065,7 +4065,7 @@ const P = [
     "BaBylissPRO",
     "Cuchillas",
     900,
-    "", // Foto: assets/img/products/babyliss/cuchilla-dlc-2-0-babyliss/cuchilla-dlc-2-0-babyliss.png
+    "assets/img/products/babyliss/cuchilla-dlc-2-0-babyliss/cuchilla-dlc-2-0-babyliss.webp",
     "",
   ),
   m(
@@ -4074,7 +4074,7 @@ const P = [
     "BaBylissPRO",
     "Cuchillas",
     900,
-    "", // Foto: assets/img/products/babyliss/cuchilla-precision-fade-babyliss/cuchilla-precision-fade-babyliss.png
+    "assets/img/products/babyliss/cuchilla-precision-fade-babyliss/cuchilla-precision-fade-babyliss.webp",
     "",
   ),
   m(
@@ -4083,7 +4083,7 @@ const P = [
     "BaBylissPRO / Tomb 45",
     "Carga y baterías",
     600,
-    "", // Foto: assets/img/products/babyliss/tapete-cargador-babyliss/tapete-cargador-babyliss.png
+    "assets/img/products/babyliss/tapete-cargador-babyliss/tapete-cargador-babyliss.webp",
     "",
   ),
   m(
@@ -4119,7 +4119,7 @@ const P = [
     "BaBylissPRO",
     "Repuestos de rasuradora",
     550,
-    "", // Foto: assets/img/products/babyliss/repuesto-shaver-fx3-babyliss/repuesto-shaver-fx3-babyliss.png
+    "assets/img/products/babyliss/repuesto-shaver-fx3-babyliss/repuesto-shaver-fx3-babyliss.webp",
     "",
   ),
   m(
@@ -4245,7 +4245,7 @@ const P = [
     "BaBylissPRO",
     "Cuchillas",
     950,
-    "", // Foto: assets/img/products/babyliss/cuchillas-faper-babyliss/cuchillas-faper-babyliss.png
+    "assets/img/products/babyliss/cuchillas-faper-babyliss/cuchillas-faper-babyliss.webp",
     "",
   ),
   // ===== CARAMELOS & TAPETES =====
