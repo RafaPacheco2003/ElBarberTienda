@@ -613,7 +613,56 @@ $("#evwa").href =
       fab.click();
     };
     fab.addEventListener("click", done);
+    // Sonido de notificación (generado aquí, sin archivo): dos notas cortas y suaves.
+    // Los navegadores no dejan sonar nada hasta que la persona toca la página; si aún
+    // no lo ha hecho, suena en su primer toque/clic mientras el aviso sigue activo.
+    const VOL = 0.18; // volumen del sonido (0 a 1)
+    let ctx = null,
+      sonado = false;
+    const tono = (f, t0, dur) => {
+      const o = ctx.createOscillator(),
+        g = ctx.createGain();
+      o.type = "sine";
+      o.frequency.setValueAtTime(f, t0);
+      g.gain.setValueAtTime(0, t0);
+      g.gain.linearRampToValueAtTime(VOL, t0 + 0.012);
+      g.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+      o.connect(g).connect(ctx.destination);
+      o.start(t0);
+      o.stop(t0 + dur + 0.02);
+    };
+    const sonar = () => {
+      if (sonado) return;
+      try {
+        ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
+        const go = () => {
+          if (sonado || ctx.state !== "running") return;
+          sonado = true;
+          const t = ctx.currentTime + 0.02;
+          tono(1175, t, 0.16); // re
+          tono(1568, t + 0.12, 0.28); // sol
+        };
+        if (ctx.state === "running") go();
+        else ctx.resume().then(go).catch(() => {});
+      } catch (x) {}
+    };
+    const alTocar = () => {
+      try {
+        ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
+        if (ctx.state !== "running") ctx.resume().catch(() => {}); // desbloquea el audio
+      } catch (x) {}
+      if (msg.classList.contains("on")) sonar(); // el aviso ya salió: suena ahora
+      if (sonado || fab.classList.contains("ping")) quitar();
+    };
+    const quitar = () =>
+      ["pointerdown", "keydown", "touchstart"].forEach((ev) =>
+        removeEventListener(ev, alTocar, true),
+      );
+    ["pointerdown", "keydown", "touchstart"].forEach((ev) =>
+      addEventListener(ev, alTocar, { capture: true, passive: true }),
+    );
     setTimeout(() => {
+      sonar();
       fab.classList.add("ping");
       msg.classList.add("on");
       document.body.classList.add("wab-open");
