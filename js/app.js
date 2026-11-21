@@ -453,6 +453,22 @@ function navOn() {
     );
   });
 }
+// ---------- Menú móvil (botón hamburguesa) ----------
+// Abre/cierra el menú; se cierra al elegir una opción, al tocar fuera o con Esc.
+{
+  const hd = $("header"),
+    bt = $("#mnu");
+  const set = (on) => {
+    hd.classList.toggle("mopen", on);
+    bt.setAttribute("aria-expanded", on);
+    bt.setAttribute("aria-label", on ? "Cerrar menú" : "Abrir menú");
+  };
+  bt.onclick = () => set(!hd.classList.contains("mopen"));
+  $("#nv").addEventListener("click", (e) => e.target.closest("a") && set(false));
+  document.addEventListener("click", (e) => !hd.contains(e.target) && set(false));
+  addEventListener("keydown", (e) => e.key === "Escape" && set(false));
+  addEventListener("hashchange", () => set(false));
+}
 // ---------- Video de la portada ----------
 let heroSync = () => {};
 // Empieza SIN sonido; el visitante toca "Activar sonido" si lo quiere escuchar.

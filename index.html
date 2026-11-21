@@ -62,7 +62,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
 <!-- Estilos -->
-<link rel="stylesheet" href="css/styles.css?v=9">
+<link rel="stylesheet" href="css/styles.css?v=10">
 </head>
 <body>
 
@@ -76,7 +76,7 @@
 <!-- ===== CABECERA: logo, menú, buscador y carrito ===== -->
 <header><div class="bar wrap">
   <a class="brand" href="#inicio"><img src="assets/img/logo/logo.png" alt="El Barber"><b>EL BARBER</b></a>
-  <nav class="nv" aria-label="Principal">
+  <nav class="nv" id="nv" aria-label="Principal">
     <a href="#inicio">Inicio</a>
     <a href="#tienda" data-c="Todos">Tienda</a>
     <a href="#tienda" data-c="Máquinas">Máquinas</a>
@@ -86,6 +86,8 @@
   </nav>
   <div class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="q" type="search" placeholder="¿Qué estás buscando?" aria-label="Buscar"></div>
   <button class="cartbtn" id="open" aria-label="Abrir carrito"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span id="n">0</span></button>
+  <!-- Botón de menú (solo celular y tablet) -->
+  <button class="mnu" id="mnu" aria-label="Abrir menú" aria-expanded="false" aria-controls="nv"><span></span><span></span><span></span></button>
 </div></header>
 
 <!-- ===== VISTA INICIO ===== -->
@@ -253,8 +255,8 @@
 
 <!-- Scripts, en este orden: ajustes → datos → lógica -->
 <script src="js/config.js?v=9"></script>
-<script src="js/data.js?v=9"></script>
-<script src="js/app.js?v=9"></script>
+<script src="js/data.js?v=10"></script>
+<script src="js/app.js?v=10"></script>
 
 <!-- Detector de versión nueva: si alguien dejó la página abierta en el celular
      y mientras tanto subiste cambios, al volver a la pestaña se recarga sola.
